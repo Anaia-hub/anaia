@@ -1,0 +1,148 @@
+{
+	font-family: quasimoda, arial black;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Header */
+
+header
+{
+    background-color: #f88cac;
+}
+
+.pink-background {
+    background-color: pink;
+    padding: 20px;
+    margin: -15px;
+  }
+
+#logo
+{
+    display: flex;
+    margin-left: 36px;
+    margin-top: 16px;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: normal;
+    height: normal;
+}
+
+#bloc_page
+{
+    width: 80%;
+}
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    margin-left: 440px;
+}
+
+nav li
+{
+    margin-right: 80px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: quasimoda, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/*Texte*/
+
+body h1
+{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+}
+
+body h2
+{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+
+body
+{
+    background-color: #DD0000;
+    min-height: 80px;
+    font-family: 'quasimoda', Arial black, sans-serif;
+}
+
+body p
+{
+    color: white;
+    text-align: justify;
+    font-size: 1em;
+    margin: auto;
+    margin-right: 160px;
+    margin-left: 160px;
+    margin-top: 80px;
+}
+
+body ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+
+/*Footer*/
+
+footer ul
+{
+    font-family: 'quasimoda', Arial black, sans-serif;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: .2em;
+    line-height: 2.5em;
+    margin-left: 60px;
+}
+
+.sub_footer
+{
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pink-footer
+{
+    background-color: pink;
+    padding-top: 100px;
+    margin: -20px;
+    margin-top: 100px;
+}
