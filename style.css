@@ -107,4 +107,34 @@ footer
     text-align: center;
     margin-bottom: 40px;
 }
+
+/*Media Queries*/
+
+@media only screen and (min-width: 1060px) {
+a.to.nav {
+display: none ;
+}
+.wrapper {
+position: relative ;
+width: 768px ;
+margin: auto ;
+}
+#primery_nav {
+position: absolute ;
+top: 5px ;
+right: 10px ;
+background: none ;
+}
+#primery_nav li {
+diplay: inline ;
+}
+#primery_nav li a {
+float: left ;
+border: none ;
+padding: 0 10px ;
+-webkit-border-radius: 2px ;
+-moz-border-radius: 2px ;
+border-raidus: 2px ;
+}
+}
 </style>
