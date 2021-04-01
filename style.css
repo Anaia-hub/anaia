@@ -7,22 +7,25 @@
 
 /* Header */
 
-header
-{
-    background-color: #f88cac;
+html,body {
+    margin:0;
+    padding:0;
 }
 
-.pink-background {
-    background-color: pink;
-    padding: 20px;
-    margin: -15px;
-  }
+#header
+{
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    z-index: 100;
+    position: relative;
+    background: pink;
+}
 
 #logo
 {
     display: flex;
-    margin-left: 36px;
-    margin-top: 16px;
+    margin-left: 6%;
     flex-direction: row;
     align-items: baseline;
 }
@@ -31,12 +34,13 @@ header
 {
     width: normal;
     height: normal;
+    margin-top: 1.4%;
 }
 
 body
 {
     background-color: #DD0000;
-    min-height: 80px;
+    min-height: 100%;
     font-family: 'quasimoda', Arial, sans-serif;
 }
 
@@ -82,19 +86,25 @@ section h1, footer h1, nav a
 
 /*Footer*/
 
+html,body {
+    margin:0;
+    padding:0;
+}
+
+footer
+{
+    width: 100%;
+    margin-top: 400px;
+    z-index: 100;
+    position: relative;
+    background-color: pink;
+}
+
 .sub_footer
 {
     font-size: 1.2em;
     color: white;
     text-align: center;
     margin-bottom: 40px;
-}
-
-.pink-footer
-{
-    background-color: pink;
-    padding-top: 200px;
-    margin: -20px;
-    margin-top: 400px;
 }
 </style>
