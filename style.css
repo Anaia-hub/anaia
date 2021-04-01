@@ -114,21 +114,21 @@ footer
 a.to.nav {
 display: none ;
 }
-.wrapper {
+header {
 position: relative ;
 width: 768px ;
 margin: auto ;
 }
-#primery_nav {
+.header {
 position: absolute ;
 top: 5px ;
 right: 10px ;
 background: none ;
 }
-#primery_nav li {
+.nav-bar {
 diplay: inline ;
 }
-#primery_nav li a {
+.nav-bar li a {
 float: left ;
 border: none ;
 padding: 0 10px ;
