@@ -141,8 +141,8 @@ footer
 {
   display: block;
   position: relative;
-  top: 1%;
-  left: 6%;
+  top: 10px;
+  left: 50px;
   
   z-index: 1;
   
@@ -234,11 +234,14 @@ footer
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
+/*
+ * Ohyeah and the last one should go the other direction
+ */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
-	
+
 /*
  * Make this absolute positioned
  * at the top left of the screen
@@ -250,6 +253,7 @@ footer
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
+  
   background: pink;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
