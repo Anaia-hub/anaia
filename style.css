@@ -189,7 +189,7 @@ footer
   display: block;
   width: 33px;
   height: 4px;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   position: relative;
   
   background: white;
@@ -252,7 +252,7 @@ footer
   width: 300px;
   margin: -100px 0 0 -50px;
   padding: 50px;
-  padding-top: 125px;
+  padding-top: 45px;
   
   background: pink;
   list-style-type: none;
