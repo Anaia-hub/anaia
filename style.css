@@ -139,13 +139,11 @@ footer
     float:none;
   }
 
-{
   .nav-mobile {
     display:block;
   }
 }
 	
-{
   .nav-list {
     display:none;
   }
