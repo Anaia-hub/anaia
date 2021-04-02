@@ -91,13 +91,12 @@ html,body {
     padding:0;
 }
 
-footer
-{
-    width: 100%;
-    margin-top: 400px;
-    z-index: 100;
-    position: relative;
+footer {
     background-color: pink;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: 100px;
 }
 
 .sub_footer
