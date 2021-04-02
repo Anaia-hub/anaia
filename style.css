@@ -122,17 +122,16 @@ footer
 	}
 	
 	#logo img {
-		align-items: right;
 		width: 60%;
 		margin-top: 1.9%;
 	}
 	
-	.nav {
-		-webkit-transition: left 0.5s ease;
-		-moz-transition: left 0.5s ease;
-		-ms-transition: left 0.5s ease;
-		-o-transition: left 0.5s ease;
-		transition: left 0.5s ease;
+	.nav1 {
+		-webkit-transition: right 0.5s ease;
+		-moz-transition: right 0.5s ease;
+		-ms-transition: right 0.5s ease;
+		-o-transition: right 0.5s ease;
+		transition: right 0.5s ease;
 		background: pink;
 		color: white;
 		cursor: pointer;
@@ -146,9 +145,9 @@ footer
 		z-index: 1;
 	}
 
-	.nav.expanded { left: 0; }
+	.nav1.expanded { left: 0; }
 
-	.nav ul {
+	.nav1 ul {
 		position: absolute;
 		top: 50%;
 		-webkit-transform: translateY(-50%);
