@@ -122,9 +122,9 @@ footer
 	}
 	
 	#logo img {
-		align-items: left;
-		width: 10%;
-		margin-top: 1.6%;
+		align-items: right;
+		width: 60%;
+		margin-top: 1.9%;
 	}
 	
 	.nav {
