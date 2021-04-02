@@ -121,6 +121,12 @@ footer
 		display: none;
 	}
 	
+	#logo img {
+		width: 14px;
+		height: 8px;
+		margin-top: 1.4%;
+	}
+	
 	.nav {
 		-webkit-transition: left 0.5s ease;
 		-moz-transition: left 0.5s ease;
