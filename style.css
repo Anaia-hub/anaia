@@ -128,7 +128,18 @@ footer
 		text-align: right;
 	}
 
-	#menuToggle
+  body
+{
+  margin: 0;
+  padding: 0;
+  
+  /* make it look decent enough */
+  background: #232323;
+  color: #cdcdcd;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+#menuToggle
 {
   display: block;
   position: relative;
@@ -144,7 +155,7 @@ footer
 #menuToggle a
 {
   text-decoration: none;
-  color: white;
+  color: #232323;
   
   transition: color 0.3s ease;
 }
@@ -183,7 +194,7 @@ footer
   margin-bottom: 5px;
   position: relative;
   
-  background: white;
+  background: #cdcdcd;
   border-radius: 3px;
   
   z-index: 1;
@@ -213,7 +224,7 @@ footer
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: white;
+  background: #232323;
 }
 
 /*
@@ -240,12 +251,12 @@ footer
 #menu
 {
   position: absolute;
-  width: 30px;
+  width: 300px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
   
-  background: pink;
+  background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -269,4 +280,5 @@ footer
 {
   transform: none;
 }
+	
 </style>
