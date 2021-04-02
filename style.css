@@ -122,8 +122,9 @@ footer
 	}
 	
 	#logo img {
-		width: 14px;
-		height: 8px;
+		align-items: left;
+		width: 60px;
+		height: 40px;
 		margin-top: 1.4%;
 	}
 	
