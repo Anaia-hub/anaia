@@ -53,19 +53,19 @@ body
 
 /* Navigation */
 
-nav ul
+.basic-nav ul
 {
     list-style-type: none;
     display: flex;
     margin-left: 440px;
 }
 
-nav li
+.basic-nav li
 {
     margin-right: 80px;
 }
 
-nav a
+.basic-nav a
 {
     font-size: 1.3em;
     color: white;
