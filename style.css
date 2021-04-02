@@ -242,6 +242,11 @@ footer
   transform: rotate(-45deg) translate(0, -1px);
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+	
 /*
  * Make this absolute positioned
  * at the top left of the screen
