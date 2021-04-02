@@ -141,7 +141,7 @@ footer
 {
   display: block;
   position: relative;
-  top: 50px;
+  top: 36px;
   left: 50px;
   
   z-index: 1;
@@ -250,7 +250,6 @@ footer
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  margin-top: -20%
   background: pink;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
