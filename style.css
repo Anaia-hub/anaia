@@ -251,8 +251,8 @@ footer
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -50px;
-  padding: 20px;
-  padding-top: 45px;
+  padding: 50px;
+  padding-top: 125px;
   
   background: pink;
   list-style-type: none;
@@ -278,5 +278,4 @@ footer
 {
   transform: none;
 }
-	
 </style>
