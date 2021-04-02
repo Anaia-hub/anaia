@@ -12,6 +12,15 @@ html,body {
     padding:0;
 }
 
+body 
+{
+    background-color: #DD0000;
+    background-attachment: fixed; /*L'image de fond est fixe*/
+    background-size: 100%;/*le fond prend 100% de la page */
+    background-position: center;/* l'image de fond est centrée*/
+    background-size:cover;
+}
+
 #header
 {
     width: 100%;
@@ -35,13 +44,6 @@ html,body {
     width: normal;
     height: normal;
     margin-top: 1.4%;
-}
-
-body
-{
-    background-color: #DD0000;
-    width: 100%;
-    font-family: 'quasimoda', Arial, sans-serif;
 }
 
 #bloc_page
