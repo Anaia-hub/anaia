@@ -234,17 +234,9 @@ footer
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
-}
-
-body {
-  margin: 0;
-  padding: 0;
 }
 	
 /*
@@ -258,7 +250,7 @@ body {
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  
+  margin-top: -20%
   background: pink;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
