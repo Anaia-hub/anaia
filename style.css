@@ -112,32 +112,90 @@ footer
 
 /*Media Queries*/
 
-@media all and (min-width: 1060px) {
+@media all and (min-width: 1060px) 
 {
-    nav
-    {
-        width: auto;
-        text-align: left;
-    }
-    
-    nav ul
-    {
-        flex-direction: column;
-    }
-
-    nav li
-    {
-        padding-left: 4px;
-    }
-    
-    nav a
-    {
-        font-size: 1.1em;
-    }
-    
-    nav a:hover
-    {
-        border-bottom: 0;
-    }
+html,body{
+	padding:0;/*initialisatoin des marges*/
+	margin:0;/*initialisaton des marges*/
 }
+ 
+nav
+{
+    display:none;/*LE menu standard disparait*/
+}
+ 
+div a:hover{
+    background-color:red; /* Couleur du fond au passage de la souris */
+}
+ 
+.hamburger{
+ 
+	height:30px;
+	width:30px;
+	position:relative;
+	float:right;
+	margin-right: 10px;
+	margin-top: 0px;
+	cursor: pointer;
+  z-index: 1;
+}
+ 
+.hamburger span{
+	height: 3px;
+	background-color: white;
+	width:100%;
+	position:absolute;
+	top:20px;
+	left:0;
+}
+ 
+.hamburger span:before{
+	content:'';
+	height: 3px;
+	background-color: white;
+	width:100%;
+	position:absolute;
+	top:-10px;
+	left:0;
+}
+ 
+.hamburger span:after{
+	content:'';
+	height: 3px;
+	background-color: white;
+	width:100%;
+	position:absolute;
+	top:10px;
+	left:0;
+}
+ 
+.nav{
+ 
+	height:500px;
+	background-color: pink;
+	width:200px;
+  z-index: 1;
+  position:absolute;
+ 
+}
+ 
+.menu a{
+	color: white;
+	font-family: 'helvetica';
+	text-align: center;
+	display:block;
+  padding:30px;
+	text-decoration: none;
+}
+ 
+.nav{
+	margin-left: -200px;
+	transition: 0.2s;
+}
+ 
+.nav_open{
+	margin-left: 0;
+	transition-duration: 0.2s;
+}
+
 </style>
