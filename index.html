@@ -26,30 +26,26 @@
         </nav>
          
         <!--Menu smartphone-->
-            <div id="sidebar">
-                <ul class="menu">
-                    <li class="menu-global menu-top" onclick="window.open('https://codepen.io/woodwork/', '_blank');">
-            <span class="menu-text">More Pens</span>
-                    </li>
-                    <li class="menu-global menu-middle">
-            <span class="menu-text">Ai Weiwei</span>
-                    </li>
-                    <li class="menu-global menu-bottom">
-            <span class="menu-text">Bert Heller</span>
-                    </li>
-                    <li class="menu-global menu-hidden">
-            <span class="menu-text">Gustav Klimt</span>
-                    </li>
-                    <li class="menu-global menu-hidden">
-            <span class="menu-text">Paul Klee</span>
-                    </li>
-                    <li class="menu-global menu-hidden">
-            <span class="menu-text">Egon Schiele</span>
-                    </li>
-            <div class="menu-close fa fa-close"></div>
-            <div class="click-blocker"></div>
+        <nav role="navigation">
+            <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+            <input type="checkbox" />
+    
+        <span></span>
+        <span></span>
+        <span></span>
+    
+                <ul id="menu">
+                    <a href="#"><li>Accueil</li></a>
+                    <a href="#"><li>Présentation</li></a>
+                    <a href="#"><li>Portfolio</li></a>
+                    <a href="#"><li>Inspiration</li></a>
                 </ul>
             </div>
+        </nav>
             
         <!--<div class="header_image">
                 <img src="fondrose.png" alt="header_image" />
