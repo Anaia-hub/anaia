@@ -40,7 +40,7 @@ html,body {
 body
 {
     background-color: #DD0000;
-    min-height: 100%;
+    width: 100%;
     font-family: 'quasimoda', Arial, sans-serif;
 }
 
