@@ -138,6 +138,11 @@ body {
     margin: 0;
     font-family: 'quasimoda', arial black, sans serif;
 }
+	
+#header {
+	height: 100px;
+}
+	
 .header {
     display: block;
     margin: 0 auto;
