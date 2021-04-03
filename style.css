@@ -112,9 +112,7 @@ main img {
 }
 
 .site-content {
-   flex: 1 0 auto; 
-   padding: var(--space) var(--space) 0;
-   width: 100%;
+   flex: -1 auto; 
 }
 
 /*Footer*/
