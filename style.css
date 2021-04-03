@@ -17,19 +17,6 @@ html,body {
 	display: none;
 }
 
-body 
-{
-    background-color: #DD0000;
-    background-attachment: fixed; /*L'image de fond est fixe*/
-    background-size: 100%;/*le fond prend 100% de la page */
-    background-position: center;/* l'image de fond est centrée*/
-    background-size:cover;
-}
-
-body img {
-    width: 100%;
-}
-
 #header
 {
     width: 100%;
@@ -103,6 +90,19 @@ html, body {
 
 .content {
     min-height: 100%;
+}
+
+body 
+{
+    background-color: #DD0000;
+    background-attachment: fixed; /*L'image de fond est fixe*/
+    background-size: 100%;/*le fond prend 100% de la page */
+    background-position: center;/* l'image de fond est centrée*/
+    background-size:cover;
+}
+
+#kabira {
+    width: 100%;
 }
 
 .content-inside {
