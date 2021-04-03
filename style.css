@@ -99,14 +99,14 @@ html, body {
 
 .wrapper {
     min-height: 100%;
-    margin-bottom: -350px;
+    margin-bottom: -300px;
 }
 
 
 /*Footer*/
 	
  .contact, .push {
-    height: 350px;
+    height: 300px;
 }
 
 footer h3, li {
