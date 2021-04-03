@@ -99,13 +99,13 @@ html, body {
 
 .content {
     min-height: 100%;
-    margin: 0 auto -50px;
+    margin: 0 auto -200px;
 }
 
 /*Footer*/
 	
  .contact, .push {
-    height: 50px;
+    height: 200px;
 }
 
 .contact {
