@@ -112,7 +112,7 @@ body
 }
 
 .site-content {
-   flex: 1;
+   flex: 0;
 }
 
 /*Footer*/
@@ -162,16 +162,6 @@ footer li {
 /*Media Queries*/
 
 @media only screen and (min-width: 1824px) {
-	
-.content-inside {
-   padding: 140px;
-   padding-bottom: 340px;
-}
-	
-.footer {
-    height: 340px;
-    margin-top: -340px;
-}
 	
 .copyright {
     padding-bottom: 1%;
