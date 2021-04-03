@@ -106,15 +106,15 @@ body
 }
 
 .content-inside {
-   padding: 160px;
-   padding-bottom: 400px;
+   padding: 120px;
+   padding-bottom: 300px;
 }
 
 /*Footer*/
 	
 .footer {
-    height: 400px;
-    margin-top: -400px;
+    height: 300px;
+    margin-top: -300px;
     background-color: pink;
 }
 
@@ -158,7 +158,23 @@ footer li {
 
 /*Media Queries*/
 
+@media only screen and (min-width: 1824px) {
+	
+.content-inside {
+   padding: 160px;
+   padding-bottom: 400px;
+}
+	
+.footer {
+    height: 400px;
+    margin-top: -400px;
+}
+	
+	
+	
+	
 @media only screen and (min-width: 320px) and (max-width: 768px) {
+	
 .basic-nav {
 	display: none;
 }
