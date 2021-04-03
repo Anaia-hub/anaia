@@ -164,8 +164,8 @@ footer h3 {
 	padding-left: 15%;
 }
 	
-footer {
-	line-height: 10px;
+footer h3, li {
+	line-height: 9px;
 }
 
 .box {
