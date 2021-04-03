@@ -187,8 +187,8 @@ footer h3, li {
 footer {
     clear: both;
     position: relative;
-    height: 300px;
-    margin-top: -100px;
+    height: 200px;
+    margin-top: -60px;
     background-color: pink;
 }
 
