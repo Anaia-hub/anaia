@@ -156,7 +156,12 @@ footer li {
 footer h3 {
 	letter-spacing: 1.4px;
 	font-weight: bold;
-	padding-left: 10%;
+	padding-left: 12%;
+}
+	
+
+footer li {
+    padding-bottom: 7%;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
