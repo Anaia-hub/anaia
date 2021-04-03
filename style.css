@@ -100,6 +100,10 @@ section h1, footer h1, nav a, h3
     margin-top: 300px;
 }
 
+footer h3, li {
+    pading: 0;
+}
+
 h3 {
     list-style-type: none;
     text-transform: uppercase;
