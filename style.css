@@ -94,7 +94,7 @@ section h1, footer h1, nav a, h3
 
 .wrapper {
     min-height: 100%;
-    margin-bottom: -50px;
+    margin-bottom: -200px;
 }
 
 
@@ -103,7 +103,7 @@ section h1, footer h1, nav a, h3
 	
  .contact, .push {
     background-color: pink;
-    height: 50px;
+    height: 200px;
 }
 
 footer h3, li {
