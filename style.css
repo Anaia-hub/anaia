@@ -81,7 +81,6 @@ body
 nav a:hover
 {
     color: #760001;
-    border-bottom: 3px solid #760001;
 }
 
 section h1, footer h1, nav a
@@ -93,8 +92,6 @@ section h1, footer h1, nav a
 
 /*Footer*/
 
-html,body {
-    margin:0;
 	
  footer {
     background-color: pink;
@@ -130,8 +127,8 @@ footer li {
 
 .sidebarMenuInner
 {
-	list-style-type: none;
 	display: none;
+	list-style-type: none;
 }
 
 /*Media Queries*/
@@ -153,6 +150,7 @@ html, body {
     overflow-x: hidden;
     height: 100%;
 }
+	
 body {
     padding: 0;
     margin: 0;
