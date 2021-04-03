@@ -118,7 +118,7 @@ footer h3, li {
     pading: 0;
 }
 
-h3 {
+footer h3 {
     list-style-type: none;
     text-transform: uppercase;
     color: white;
@@ -198,6 +198,7 @@ body {
     margin: 0;
     font-family: quasimoda, arial black, sans-serif;
 }
+	
 .header {
     display: block;
     margin: 0 auto;
@@ -210,6 +211,7 @@ body {
     overflow: hidden;
     z-index: 10;
 }
+	
 .main {
     margin: 0 auto;
     display: block;
