@@ -92,6 +92,11 @@ section h1, footer h1, nav a, h3
 
 /*Content*/
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 .wrapper {
     min-height: 100%;
     margin-bottom: -200px;
@@ -99,10 +104,8 @@ section h1, footer h1, nav a, h3
 
 
 /*Footer*/
-
 	
  .contact, .push {
-    background-color: pink;
     height: 200px;
 }
 
