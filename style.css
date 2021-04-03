@@ -162,11 +162,10 @@ footer h3 {
 	letter-spacing: 1.4px;
 	font-weight: bold;
 	padding-left: 15%;
-	padding-bottom: 3%;
-}	
-
-footer li {
-    padding-bottom: 5%;
+}
+	
+footer {
+	line-height: 10px;
 }
 
 .box {
