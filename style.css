@@ -106,8 +106,9 @@ main img {
 footer {
     clear: both;
     position: relative;
-    height: 200px;
-    margin-top: -200px;
+    height: 300px;
+    margin-top: -300px;
+    background-color: pink;
 }
 
 footer h3, li {
