@@ -203,6 +203,16 @@ body {
     font-family: quasimoda, arial black, sans-serif;
 }
 	
+.content-inside {
+   padding: 120px;
+   padding-bottom: 300px;
+}
+	
+.footer {
+    height: 300px;
+    margin-top: -200px;
+}
+	
 .header {
     display: block;
     margin: 0 auto;
