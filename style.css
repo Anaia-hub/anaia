@@ -106,8 +106,8 @@ main img {
 footer {
     clear: both;
     position: relative;
-    height: 300px;
-    margin-top: -200px;
+    height: 280px;
+    margin-top: -150px;
     background-color: pink;
 }
 
