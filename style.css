@@ -161,13 +161,13 @@ footer li {
 @media only screen and (min-width: 1824px) {
 	
 .content-inside {
-   padding: 160px;
-   padding-bottom: 400px;
+   padding: 140px;
+   padding-bottom: 340px;
 }
 	
 .footer {
-    height: 400px;
-    margin-top: -400px;
+    height: 340px;
+    margin-top: -340px;
 }
 	
 .copyright {
