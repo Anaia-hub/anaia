@@ -138,6 +138,12 @@ footer li {
 .basic-nav {
 	display: none;
 }
+
+.sidebarMenuInner
+{
+	display: contents;
+	list-style-type: none;
+}
 	
 #logo img {
 	width: 50%;
