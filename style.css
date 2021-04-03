@@ -105,16 +105,19 @@ body
     width: 100%;
 }
 
-.content-inside {
-   padding: 120px;
-   padding-bottom: 300px;
+.site {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+}
+
+.site-content {
+   flex: 1;
 }
 
 /*Footer*/
 	
 .footer {
-    height: 300px;
-    margin-top: -300px;
     background-color: pink;
 }
 
