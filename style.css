@@ -135,33 +135,27 @@ footer li {
 /*Media Queries*/
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-	.basic-nav {
-		display: none;
-	}
+.basic-nav {
+	display: none;
+}
 	
-	#logo img {
-		width: 50%;
-		margin-top: 5%;
-		margin-left: 42%;
-		text-align: right;
-	}
+#logo img {
+	width: 50%;
+	margin-top: 5%;
+	margin-left: 42%;
+	text-align: right;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 html, body {
     overflow-x: hidden;
     height: 100%;
 }
-	
 body {
     padding: 0;
     margin: 0;
-    font-family: 'quasimoda', arial black, sans serif;
+    font-family: 'Varela Round', sans-serif;
 }
-	
-#header {
-	height: 100px;
-}
-	
 .header {
     display: block;
     margin: 0 auto;
