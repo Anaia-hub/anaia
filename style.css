@@ -112,7 +112,7 @@ footer {
 }
 
 footer h3, li {
-    pading: 0;
+    padding: 0;
 }
 
 footer h3 {
@@ -184,6 +184,13 @@ footer h3, li {
 	flex-direction: column;
 }
       
+footer {
+    clear: both;
+    position: relative;
+    height: 300px;
+    margin-top: -60px;
+    background-color: pink;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 html, body {
