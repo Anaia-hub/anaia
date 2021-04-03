@@ -1,6 +1,6 @@
 <style>
 {
-	font-family: quasimoda, sans-serif;
+	font-family: quasimoda, arial black, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
@@ -160,7 +160,7 @@ html, body {
 body {
     padding: 0;
     margin: 0;
-    font-family: 'quasimoda', arial black, sans-serif;
+    font-family: quasimoda, arial black, sans-serif;
 }
 .header {
     display: block;
