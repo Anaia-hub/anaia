@@ -83,13 +83,9 @@ section h1, footer h1, nav a, h3
 
 /*Content*/
 
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
-.content {
+body {
     min-height: 100%;
+    margin: 0;
 }
 
 body 
@@ -105,20 +101,13 @@ main img {
     width: 100%;
 }
 
-.site {
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
-}
-
-.site-content {
-   flex: -1 auto; 
-}
-
 /*Footer*/
 	
 footer {
-    background-color: pink;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
 }
 
 footer h3, li {
