@@ -170,7 +170,9 @@ footer li {
     margin-top: -400px;
 }
 	
-	
+.copyright {
+    padding-bottom: 1%;
+}
 	
 	
 @media only screen and (min-width: 320px) and (max-width: 768px) {
