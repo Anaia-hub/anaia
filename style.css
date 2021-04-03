@@ -107,7 +107,7 @@ footer {
     clear: both;
     position: relative;
     height: 300px;
-    margin-top: -300px;
+    margin-top: -200px;
     background-color: pink;
 }
 
