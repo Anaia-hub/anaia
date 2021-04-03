@@ -154,8 +154,7 @@ footer li {
 @media only screen and (min-width: 1824px) {
 	
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-	
-.bloc_page {
+	.bloc_page {
 	display: none;
 }
 
