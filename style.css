@@ -83,7 +83,7 @@ nav a:hover
     color: #760001;
 }
 
-section h1, footer h1, nav a
+section h1, footer h1, nav a, footer
 {
     font-family: quasimoda, serif;
     font-weight: normal;
