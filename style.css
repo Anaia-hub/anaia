@@ -97,11 +97,10 @@ html, body {
     margin: 0;
 }
 
-.wrapper {
+.content {
     min-height: 100%;
-    margin-bottom: -50px;
+    margin: 0 auto -50px;
 }
-
 
 /*Footer*/
 	
@@ -110,7 +109,7 @@ html, body {
 }
 
 .contact {
-    background color: pink;
+    background-color: pink;
 }
 
 footer h3, li {
