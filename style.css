@@ -10,6 +10,7 @@
 html,body {
     margin:0;
     padding:0;
+    min-height: 100%;
 }
 
 #menu {
@@ -94,7 +95,38 @@ section h1, footer h1, nav a
 
 html,body {
     margin:0;
-    padding:0;
+	
+ footer {
+    background-color: pink;
+    clear: both;
+    margin: -20px;
+    margin-top: 300px;
+}
+
+h3 {
+    list-style-type: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.6em;
+    padding-left: 7%;
+    padding-top: 6%;
+}
+
+footer li {
+    list-style-type: none;
+    color: white;
+    font-size: 1.3em;
+    padding-left: 4%;
+    padding-bottom: 5%;
+}
+
+.copyright p
+{
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+}   padding:0;
 }
 
 footer
