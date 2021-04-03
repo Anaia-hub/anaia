@@ -126,28 +126,11 @@ footer li {
     color: white;
     text-align: center;
     padding-bottom: 2%;
-}   padding:0;
-}
-
-footer
-{
-    width: 100%;
-    margin-top: 400px;
-    z-index: 100;
-    position: relative;
-    background-color: pink;
-}
-
-.sub_footer
-{
-    font-size: 1.2em;
-    color: white;
-    text-align: center;
-    margin-bottom: 40px;
 }
 
 .sidebarMenuInner
 {
+	list-style-type: none;
 	display: none;
 }
 
