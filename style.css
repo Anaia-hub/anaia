@@ -5,8 +5,8 @@
     font-style: normal;
 }
 
-input, label, .main-center img {
-    display: none;
+input, label, .main-center img, #sidebarMenu {
+    visibility: hidden;
 }
 
 /* Header */
@@ -151,23 +151,16 @@ footer li {
     text-align: center;
 }
 
-#sidebarMenu 
-{
-    list-style-type: none;
-    display: none;
-}
-
 /*Media Queries*/
     
 @media only screen and (min-width: 320px) and (max-width: 768px) {
     .bloc_page, .site-content {
-    display: none;
+    visibility: hidden;
 }
 
-.sidebarMenuInner, .main-center img
+#sidebarMenu, .main-center img
 {
-    display: contents;
-    list-style-type: none;
+    visibility: visible;
 }
     
 #logo img {
