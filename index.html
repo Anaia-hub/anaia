@@ -4,16 +4,19 @@
             <meta charset="utf-8" />
             <link rel="stylesheet" href="presentation.css" />
             <link rel="stylesheet" href="https://use.typekit.net/elc6swy.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Anaïa</title>
     </head>
 
-    <header>
-        <form class="pink-background">
+    <body>
+        <main id="page-container">
+            <form id="content-wrap">
+        <header id="header" class="absolute fullwidth light">
             <div id="logo">
                 <img src="logo/anaia_logo.png" alt="logo_anaïa" /> 
             </div>
                 
-        <nav>
+        <nav class="basic-nav">
             <div class="bloc_page">
                 <ul>
                     <li><a href="file:///Users/apple/Downloads/test/website001.html#">Accueil</a></li>
@@ -23,38 +26,52 @@
                 </ul>
             </div>
         </nav>
-        </form>
+
+        <!--Menu smartphone-->
+
+                <div class="header"></div>
+            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+            <label for="openSidebarMenu" class="sidebarIconToggle">
+                <div class="spinner diagonal part-1"></div>
+                <div class="spinner horizontal"></div>
+                <div class="spinner diagonal part-2"></div>
+            </label>
+                <div id="sidebarMenu">
+                    <ul class="sidebarMenuInner">
+                        <li><a href="#" target="_blank">Accueil</li>
+                        <li><a href="#" target="_blank">Présentation</a></li>
+                        <li><a href="#" target="_blank">Portfolio</a></li>
+                        <li><a href="#" target="_blank">Inspirations</a></li>
+                    </ul>
+                </div>
+
         </header>
     
-    <body>
         <h1>À propos</h1>
         <p><img src="images/profil.jpg" class="imageflottante" alt="Image flottante" width="260px" height="260px"/> 
             <div class="presentation">
-                Je m'appelle Anaïa, j'ai 18 ans. Je suis curieuse et aime apprendre un peu de tout, faire des expérimentations. 
-                J'étudie le design graphique depuis 1 ans mais encore . De nombreuses disciplines piquent ma curiosité grandissante comme l'animation, 
+                Je m'appelle Anaïa, j'ai 18 ans. Je suis curieuse et aime apprendre un peu de tout, faire des expérimentations telle une épistémophile. 
+                J'étudie le Design Graphique et la Communication Digitale depuis 1 ans mais encore. De nombreuses disciplines piquent ma curiosité grandissante comme l'animation, 
                 la 3D, la typographie, l'artisanat, la céramique, le cinéma... J'aime expérimenter et apprendre des choses à propos de ces varieux domaines.
                 En ce moment, je m'introduis au monde de la programmation, ce qui m'a permis de faire ce modeste site internet
-                de A à Z, défi qui me tenait à coeur. 
-                <!--J'ai été familiariser à l'art d'abord par le dessin que je pratique depuis l'enfance et la mode. Hormis le design,
-                je suis amatrice de cinéma, seconde main,
-                J'espère accomplir de plus grandes choses et faire de mon ambition un
-                moteur.
-                djkdjdj à un jour dit : "citation à la con"--></p>
-    </body>
+                de A à Z, défi qui me tenait à coeur et qui ne fût pas de tout repos. 
+                J'ai été familiarisé à l'art d'abord par le dessin que je pratique depuis l'enfance et la mode. 
+                J'espère accomplir de plus grandes choses et aspire à faire de mon ambition un
+                moteur.</p>
+            </div>
+            </form>
 
-            <div class="banniere">
-                <img src="" alt="" />
-                <a href="#" class="bouton_rouge">Voir <img src="images/flecheblanchedroite.png" alt="" /></a>
-            </div>
-            </div>
-            
-        <section>
-            <aside>
-            </aside>
-        </section>
-        
-    <div class="pink-footer">
-        <footer class=social media>    
-        </footer>
-    </div>
+        <!--Footer-->
+
+        <footer id="footer">
+            <h3><strong>Contact</strong></h3>
+                <ul>
+                    <li><a>anaia.ktr@gmail.com</a></li>
+                </ul>  
+        <div class="copyright">
+            <p>© 2021 Anaïa. All rights reserved.</p>
+        </div>
+        </footer> 
+        </main>
+    </body>
 </html>
