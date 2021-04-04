@@ -250,19 +250,20 @@ body {
     margin: 0;
     font-family: quasimoda, arial black, sans-serif;
 }
-    
+	
 .header {
     display: block;
     margin: 0 auto;
     width: 100%;
     max-width: 100%;
     box-shadow: none;
+    background-color: pink;
     position: fixed;
     height: 60px!important;
     overflow: hidden;
     z-index: 10;
 }
-    
+	
 .main {
     margin: 0 auto;
     display: block;
