@@ -208,14 +208,14 @@ input, label {
 
 .presentation
 {
-    font-size: 2em
+    font-size: 3em;
     margin: auto;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 14%;
+    margin-left: 14%;
     margin-top: 16%;
     color: white;
     margin-bottom: 20%;
-    text-align: center;
+    text-align: justify;
 }
 	
 footer h3 {
