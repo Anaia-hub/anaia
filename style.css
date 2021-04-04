@@ -5,7 +5,7 @@
     font-style: normal;
 }
 
-input, label, #center {
+input, label, .main-center img {
     display: none;
 }
 
@@ -98,9 +98,7 @@ body
 }
 
 .site-content img {
-    width: 100%;
-    min-height: 100%;
-    
+    width: 100%;   
 }
 
 /*Footer*/
@@ -162,11 +160,11 @@ footer li {
 /*Media Queries*/
     
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-    .bloc_page {
+    .bloc_page, .site-content {
     display: none;
 }
 
-.sidebarMenuInner
+.sidebarMenuInner, .main-center img
 {
     display: contents;
     list-style-type: none;
