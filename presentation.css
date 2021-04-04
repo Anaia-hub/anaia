@@ -248,9 +248,8 @@ html, body {
 body {
     padding: 0;
     margin: 0;
-    font-family: quasimoda, arial black, sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
-	
 .header {
     display: block;
     margin: 0 auto;
@@ -263,7 +262,6 @@ body {
     overflow: hidden;
     z-index: 10;
 }
-	
 .main {
     margin: 0 auto;
     display: block;
