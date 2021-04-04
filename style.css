@@ -43,8 +43,7 @@ html,body {
     width: 80%;
 }
 
-
-#menu {
+#menu, input {
     visibility: hidden;
 }
 
@@ -83,9 +82,9 @@ section h1, footer h1, nav a, h3
 /*Content*/
 
 body {
+    margin: 0;
     width: 100%;
     min-height: 100%;
-    margin: 0;
 }
 
 body 
@@ -96,7 +95,6 @@ body
 }
 
 .site-content img {
-    min-height: 100%;
     width: 100%;   
 }
 
