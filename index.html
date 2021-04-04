@@ -2,86 +2,53 @@
 <html lang="fr">
     <head>
             <meta charset="utf-8" />
-            <link rel="stylesheet" type="text/css" href="style.css" />
+            <link rel="stylesheet" type="text/css" href="css/style.css" />
             <link rel="stylesheet" href="https://use.typekit.net/elc6swy.css">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Anaïa</title>
     </head>
     
     <body class="site">
-        <main id="page-container">
-            <form id="content-wrap">
-        <header id="header" class="absolute fullwidth light">
-                <div id="logo">
-                    <img src="logo/anaia_logo.png" alt="logo_anaïa" /> 
-                </div>
+    	<main id="page-container">
+    		<div class=first-nav">
+    			<form id="content-wrap">
+            	<header id="header" class="absolute fullwidth light">
+            			<div id="logo">
+                			<img src="logo/anaia_logo.png" alt="logo_anaïa" /> 
+            			</div>
                 
-        <nav class="basic-nav">
-            <div class="bloc_page">
-                <ul>
-                    <li><a href="www.anaiaktr.com">Accueil</a></li>
-                    <li><a href="https://personal-presentation.netlify.app/">Présentation</a></li>
-                    <li><a href="https://personal-work.netlify.app/">Portfolio</a></li>
-                    <li><a href="#">Inspiration</a></li>
-                </ul>
+        	<nav class="basic-nav">
+            	<div class="bloc_page">
+                	<ul>
+                    	<li><a href="#">Accueil</a></li>
+                    	<li><a href="#">Présentation</a></li>
+                    	<li><a href="#">Portfolio</a></li>
+                    	<li><a href="#">Inspirations</a></li>
+                	</ul>
+            	</div>
             </div>
-        </nav>
-        </header>
+        	</nav>
+        	</header>
+
+        		<div class="site-content">
+                	<img src="images/kabira.jpg" alt="kabira"/>
+        		</div> 
         
-        <!--Menu smartphone-->
-        
-            <nav role="navigation">
-                <div id="menuToggle">
-    <!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
-                    <input type="checkbox" />
-                    <span></span>
-                    <span></span>
-                    <span></span>
-    
-    <!--
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
-                    <ul id="menu">
-                        <a href="#"><li>Accueil</li></a>
-                        <a href="#"><li>Présentation</li></a>
-                        <a href="#"><li>Portfolio</li></a>
-                        <a href="#"><li>Inspirations</li></a>
-                    </ul>
-                </div>
-            </nav>
-                
-                <div id='center' class="main-center"><img src="images/kabira.jpg" alt="kabira"/></div>
-            
-            <!--<div class="banniere">
-                <img src="" alt="" />
-                <a href="#" class="bouton_rouge">Voir <img src="images/flecheblanchedroite.png" alt="" /></a>
-            </div>
-            
-        <section>
-            <aside>
-            </aside>
-        </section>-->
-        
-            <div class="site-content">
-                <img src="images/kabira.jpg" alt="kabira"/>
-            </div>
-        </form>
-            
+        	</form>
+
+        	<!--Footer-->
+
         <footer id="footer">
-            <div class="box">
-                <h3><strong>Contact</strong></h3>
-                    <ul>
-                        <li><a href="#">anaia.ktr@gmail.com</a></li>
-                    </ul>  
+        	<div class="box">
+            <h3><strong>Contact</strong></h3>
+                <ul>
+                    <li><a>anaia.ktr@gmail.com</a></li>
+                </ul>  
             </div>
-            <div class="copyright">
+        <div class="copyright">
             <p>© 2021 Anaïa. All rights reserved.</p>
-            </div>
-        </footer>
+        </div>
+        </footer> 
         </main>
     </body>
 </html>
