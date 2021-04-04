@@ -85,10 +85,8 @@ section h1, footer h1, nav a, h3
 
 /*Content*/
 
-body {
-    margin: 0;
-    width: 100%;
-    min-height: 100%;
+body, html {
+    height:100%;
 }
 
 body 
@@ -103,6 +101,10 @@ body
 /*Footer*/
 
 html, body {
+  width: 100%;
+}
+
+#content-crap {
   height: 100%;
 }
 
