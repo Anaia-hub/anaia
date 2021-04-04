@@ -215,6 +215,7 @@ input, label {
     margin-top: 16%;
     color: white;
     margin-bottom: 20%;
+    text-align: center;
 }
 	
 footer h3 {
@@ -225,6 +226,10 @@ footer h3 {
     
 footer h3, li {
     line-height: 9px;
+}
+	
+body h1 {
+    font-size: 2em;
 }
 
 .box {
