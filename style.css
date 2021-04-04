@@ -44,8 +44,8 @@ html,body {
 }
 
 
-input {
-    display: none;
+input, #menu {
+    visibility: hidden;
 }
 
 nav ul
