@@ -152,7 +152,7 @@ footer li {
 /*Media Queries*/
 	
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-header, main img {
+header, main img, footer {
 	display: none;
 }
 	
@@ -169,22 +169,22 @@ header, main img {
 	text-align: right;
 }
 	
-footer h3 {
+#footer2 h3 {
 	letter-spacing: 1.4px;
 	font-weight: bold;
 	padding-left: 15%;
 }
 	
-footer h3, li {
+#footer2 h3, li {
 	line-height: 9px;
 }
 
-.box {
+.box2 {
 	display: flex;
 	flex-direction: column;
 }
       
-footer {
+#footer2 {
     clear: both;
     position: relative;
     height: 200px;
