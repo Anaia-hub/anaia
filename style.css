@@ -102,8 +102,7 @@ body
 }
 
 #content-wrap {
-  padding:0;
-  height: 100%;
+  margin:0;
   padding-bottom: 16rem;    /* Footer height */
 }
 
