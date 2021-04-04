@@ -101,10 +101,6 @@ body
 /*Footer*/
 
 html, body {
-  width: 100%;
-}
-
-#content-crap {
   height: 100%;
 }
 
