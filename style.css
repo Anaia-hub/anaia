@@ -92,9 +92,6 @@ body
 {
     background-color: #BF0413;
     background-attachment: fixed; /*L'image de fond est fixe*/
-    background-size: 100%;/*le fond prend 100% de la page */
-    background-position: center;/* l'image de fond est centrée*/
-    background-size:cover;
 }
 
 .site-content img {
