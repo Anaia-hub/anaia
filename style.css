@@ -152,7 +152,7 @@ footer li {
 /*Media Queries*/
 	
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-header, .site-content {
+header, .site-content, footer {
 	display: none;
 }
 	
