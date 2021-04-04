@@ -156,18 +156,18 @@ header, .site-content, footer {
 	display: none;
 }
 	
-.sidebarMenuInner, input, label, .header
+.sidebarMenuInner, input, label
 {
 	display: contents;
 	list-style-type: none;
 }
 	
-#logo img {
+/*#logo img {
 	width: 50%;
 	margin-top: 5%;
-	margin-left: 42%;
+	margin-left: 50%;
 	text-align: right;
-}
+}*/
 	
 footer h3 {
 	letter-spacing: 1.4px;
@@ -192,11 +192,6 @@ footer {
     background-color: pink;
 }	
 
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
-html, body {
-    overflow-x: hidden;
-    height: 100%;
-}
 body {
     padding: 0;
     margin: 0;
