@@ -119,9 +119,9 @@ body
     display: flex;
     text-align: justify;
     margin: auto;
-    margin-right: 260px;
-    margin-left: 260px;
-    margin-top: 80px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 20%;
     color: white;
     margin-bottom: 10%;
 }
