@@ -5,6 +5,10 @@
     font-style: normal;
 }
 
+#menu, .nav2, input {
+    visibility: hidden;
+}
+
 /* Header */
 
 html,body {
