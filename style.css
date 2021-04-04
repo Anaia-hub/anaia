@@ -5,7 +5,7 @@
     font-style: normal;
 }
 
-.main-center img, header, #menu {
+.main-center img, #menu {
     visibility: hidden;
 }
 
@@ -154,7 +154,7 @@ footer li {
 /*Media Queries*/
     
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-    .bloc_page, .site-content {
+    .bloc_page, .site-content, header {
     visibility: hidden;
 }
 
