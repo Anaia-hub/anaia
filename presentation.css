@@ -95,7 +95,7 @@ body h1
     font-size: 5em;
     text-align: center;
     color: white;
-    margin-top: 50px;
+    margin-top: 50%;
 }
 
 .imageflottante
@@ -115,15 +115,15 @@ body
 
 .presentation
 {
-    font-size: 1.5em
+    font-size: 1.6em
     display: flex;
     text-align: justify;
     margin: auto;
     margin-right: 20%;
     margin-left: 20%;
-    margin-top: 20%;
+    margin-top: 40%;
     color: white;
-    margin-bottom: 10%;
+    margin-bottom: 40%;
 }
 
 /*Footer*/
