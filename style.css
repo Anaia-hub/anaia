@@ -103,7 +103,7 @@ main img, #center img {
 
 /*Footer*/
 	
-footer, #footer2 {
+footer {
     clear: both;
     position: relative;
     height: 300px;
@@ -194,7 +194,7 @@ header, main img, footer {
     height: 200px;
     margin-top: -40px;
     background-color: pink;
-}
+}	
 
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 html, body {
