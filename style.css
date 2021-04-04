@@ -47,10 +47,6 @@ html,body {
     width: 80%;
 }
 
-#menu, input {
-    visibility: hidden;
-}
-
 nav ul
 {
     list-style-type: none;
@@ -107,6 +103,7 @@ body
 
 #content-wrap {
   padding-bottom: 18rem;    /* Footer height */
+  width: 100%
 }
 
 #footer {
