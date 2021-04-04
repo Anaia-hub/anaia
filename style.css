@@ -111,6 +111,8 @@ body {
 
 .content {
   flex: 1 0 auto;
+  margin-bottom: -22px;
+  padding-bottom: 0;
 }
 
 .footer {
