@@ -6,7 +6,7 @@
 }
 
 #menu, .nav2, input {
-    visibility: hidden;
+    display: none;
 }
 
 /* Header */
