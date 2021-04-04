@@ -97,7 +97,7 @@ body
     background-size:cover;
 }
 
-main img {
+main img, #center img {
     width: 100%;
 }
 
@@ -152,7 +152,7 @@ footer li {
 /*Media Queries*/
 	
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-header {
+header, main img {
 	display: none;
 }
 	
