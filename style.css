@@ -103,7 +103,7 @@ main img, #center img {
 
 /*Footer*/
 	
-footer {
+footer, #footer2 {
     clear: both;
     position: relative;
     height: 300px;
@@ -115,7 +115,11 @@ footer h3, li {
     padding: 0;
 }
 
-footer h3 {
+#footer2 h3, li {
+    padding: 0;
+}
+
+footer h3, #footer2 h3 {
     list-style-type: none;
     text-transform: uppercase;
     color: white;
@@ -124,7 +128,7 @@ footer h3 {
     padding-top: 6%;
 }
 
-footer li {
+footer li, #footer2 li {
     list-style-type: none;
     font-family: quasimoda, arial black, serif;
     color: white;
@@ -133,7 +137,7 @@ footer li {
     padding-bottom: 5%;
 }
 
-.copyright p
+.copyright p, .copyright2 p
 {
     font-size: 1.2em;
     font-family: quasimoda, arial black, serif;
@@ -143,7 +147,7 @@ footer li {
     padding-bottom: 2%;
 }
 
-.sidebarMenuInner, .header
+.sidebarMenuInner, .header, #footer2
 {
 	display: none;
 	list-style-type: none;
@@ -156,7 +160,7 @@ header, main img, footer {
 	display: none;
 }
 	
-.sidebarMenuInner
+.sidebarMenuInner, #footer2
 {
 	display: contents;
 	list-style-type: none;
