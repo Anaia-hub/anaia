@@ -84,12 +84,12 @@ section h1, footer h1, nav a, h3
 /*Content*/
 
 body {
-    min-height: 100%;
     margin: 0;
 }
 
 .site-content img {
-    width: 100%;   
+    width: 100%;
+    min-height: 100%;
 }
 
 /*Footer*/
