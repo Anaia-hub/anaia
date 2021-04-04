@@ -208,7 +208,7 @@ input, label {
 
 .presentation
 {
-    font-size: 3em;
+    font-size: 0.4em;
     margin: auto;
     margin-right: 14%;
     margin-left: 14%;
@@ -229,7 +229,7 @@ footer h3, li {
 }
 	
 body h1 {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .box {
