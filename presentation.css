@@ -189,7 +189,11 @@ footer li {
     display: none;
 }
 
-.sidebarMenuInner, input, label
+input, label {
+    display: contents;
+}
+
+.sidebarMenuInner
 {
     display: contents;
     list-style-type: none;
