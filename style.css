@@ -158,9 +158,12 @@ footer li {
     visibility: hidden;
 }
 
-#sidebarMenu, .main-center img
-{
+#sidebarMenu, .main-center img {
     visibility: visible;
+}
+    
+.main-center img {
+    width: 100%;
 }
     
 #logo img {
