@@ -13,7 +13,7 @@ html,body {
     height: 100%;
 }
 
-#menu {
+#menu, input, label {
 	display: none;
 }
 
@@ -115,11 +115,7 @@ footer h3, li {
     padding: 0;
 }
 
-#footer2 h3, li {
-    padding: 0;
-}
-
-footer h3, #footer2 h3 {
+footer h3 {
     list-style-type: none;
     text-transform: uppercase;
     color: white;
@@ -128,7 +124,7 @@ footer h3, #footer2 h3 {
     padding-top: 6%;
 }
 
-footer li, #footer2 li {
+footer li {
     list-style-type: none;
     font-family: quasimoda, arial black, serif;
     color: white;
@@ -137,7 +133,7 @@ footer li, #footer2 li {
     padding-bottom: 5%;
 }
 
-.copyright p, .copyright2 p
+.copyright p
 {
     font-size: 1.2em;
     font-family: quasimoda, arial black, serif;
@@ -147,7 +143,7 @@ footer li, #footer2 li {
     padding-bottom: 2%;
 }
 
-.sidebarMenuInner, .header, #footer2
+.sidebarMenuInner, .header
 {
 	display: none;
 	list-style-type: none;
@@ -156,11 +152,11 @@ footer li, #footer2 li {
 /*Media Queries*/
 	
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-header, main img, footer {
+header, main, footer {
 	display: none;
 }
 	
-.sidebarMenuInner, #footer2
+.sidebarMenuInner
 {
 	display: contents;
 	list-style-type: none;
@@ -173,22 +169,22 @@ header, main img, footer {
 	text-align: right;
 }
 	
-#footer2 h3 {
+footer h3 {
 	letter-spacing: 1.4px;
 	font-weight: bold;
 	padding-left: 15%;
 }
 	
-#footer2 h3, li {
+footer h3, li {
 	line-height: 9px;
 }
 
-.box2 {
+.box {
 	display: flex;
 	flex-direction: column;
 }
       
-#footer2 {
+footer {
     clear: both;
     position: relative;
     height: 200px;
