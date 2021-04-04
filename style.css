@@ -5,7 +5,7 @@
     font-style: normal;
 }
 
-input, label, .main-center img, #sidebarMenu {
+.main-center img, header, #menu {
     visibility: hidden;
 }
 
@@ -103,7 +103,7 @@ body
 
 /*Footer*/
 
-main {
+#page-container {
   position: relative;
   min-height: 100vh;
 }
@@ -158,7 +158,7 @@ footer li {
     visibility: hidden;
 }
 
-#sidebarMenu, .main-center img {
+#menu, .main-center img {
     visibility: visible;
 }
     
