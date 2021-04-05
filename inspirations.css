@@ -258,7 +258,6 @@ h3, h4 {
 	
 footer p {
 	font-weight: bold;
-	padding-left: 15%;
 	font-size: 1em;
 }
 	
@@ -276,7 +275,7 @@ footer {
     position: relative;
     height: 100%;
     margin-top: -10px;
-    background-color: pink;
+    background-color: #D984A3;
 }
 	
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
