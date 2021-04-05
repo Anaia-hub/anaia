@@ -244,10 +244,12 @@ body img {
   width: auto ;
   max-width: 100% ;
   height: auto ;
+  margin: 8%;
 }
 	
 h3, h4 {
 	font-size: 1em;
+	line-height: 4px;
 }
 	
 footer h2 {
