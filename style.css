@@ -147,12 +147,6 @@ footer li {
     padding-bottom: 2%;
 }
 
-.sidebarMenuInner
-{
-	display: none;
-	list-style-type: none;
-}
-
 /*Media Queries*/
 	
 @media only screen and (min-width: 320px) and (max-width: 768px) {
@@ -160,11 +154,15 @@ footer li {
 	display: none;
 }
 	
+#menuToggle {
+    display: contents;
+}
+	
 #logo img {
-	width: 50%;
-	margin-top: 5%;
-	margin-left: 42%;
-	text-align: right;
+    width: 62%;
+    margin-top: 6%;
+    padding-left: 60%;
+    text-align: right;
 }
 	
 footer h2 {
@@ -186,7 +184,7 @@ footer {
     clear: both;
     position: relative;
     height: 200px;
-    margin-top: -40px;
+    margin-top: -30px;
     background-color: pink;
 }
 
@@ -195,6 +193,7 @@ html, body {
     overflow-x: hidden;
     height: 100%;
 }
+	
 body {
     padding: 0;
     margin: 0;
