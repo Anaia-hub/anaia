@@ -260,6 +260,7 @@ body {
 {
   text-decoration: none;
   color: white;
+  line-height: 26px;
   
   transition: color 0.3s ease;
 }
