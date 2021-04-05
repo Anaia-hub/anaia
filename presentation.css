@@ -260,7 +260,6 @@ body {
 {
   text-decoration: none;
   color: white;
-  line-height: 26px;
   
   transition: color 0.3s ease;
 }
@@ -359,7 +358,7 @@ body {
   width: 300px;
   margin: -80px 0 0 -50px;
   padding: 38px;
-  padding-top: 80px;
+  padding-top: 100px;
   
   background: pink;
   list-style-type: none;
