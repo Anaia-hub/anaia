@@ -9,47 +9,74 @@
     </head>
     
     <body class="site">
+        <main id="page-container">
+            <div id="content-wrap">
             <header id="header" class="absolute fullwidth light">
-        <div id="nav-bar">
-            <div id="logo">
-                <img src="logo/anaia_logo.png" alt="logo_anaïa" /> 
-            </div>
+                <div id="logo">
+                    <a href="www.anaiaktr.com"><img src="logo/anaia_logo.png" alt="logo_anaïa" /></a> 
+                </div>
                 
-        <nav class="basic-nav">
-            <div class="bloc_page">
-                <ul>
-                    <li><a href="www.anaiaktr.com">Accueil</a></li>
-                    <li><a href="https://personal-presentation.netlify.app/">Présentation</a></li>
-                    <li><a href="https://personal-work.netlify.app/">Portfolio</a></li>
-                    <li><a href="#">Inspiration</a></li>
-                </ul>
-            </div>
-        </nav>
+                <nav class="basic-nav">
+                    <div class="bloc_page">
+                        <ul>
+                            <li><a href="www.anaiaktr.com">Accueil</a></li>
+                            <li><a href="https://personal-presentation.netlify.app/">Présentation</a></li>
+                            <li><a href="https://personal-work.netlify.app/">Portfolio</a></li>
+                            <li><a href="#">Inspirations</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
          
         <!--Menu smartphone-->
-            <div class="header"></div>
-        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
-        <label for="openSidebarMenu" class="sidebarIconToggle">
-            <div class="spinner diagonal part-1"></div>
-            <div class="spinner horizontal"></div>
-            <div class="spinner diagonal part-2"></div>
-        </label>
-            <div id="sidebarMenu">
-                <ul class="sidebarMenuInner">
-                    <li><a href="www.anaiaktr.com" target="_blank">Accueil</li>
-                    <li><a href="https://personal-presentation.netlify.app/">Présentation</a></li>
-                    <li><a href="https://personal-work.netlify.app/">Portfolio</a></li>
-                    <li><a href="#" target="_blank">Inspirations</a></li>
-                </ul>
+            <nav id="content" role="navigation">
+                    <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+                        <input type="checkbox" />
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+                        <ul id="menu">
+                            <a href="#"><li>Accueil</li></a>
+                            <a href="#"><li>Présentation</li></a>
+                            <a href="#"><li>Portfolio</li></a>
+                            <a href="#"><li>Inspirations</li></a>
+                        </ul>
+                    </div>
+                </nav>
+                </nav>
+                </header>
+        
+                <div class="site-content">
+                    <img src="images/kabira.jpg" alt="kabira"/>
+                </div>
+
+        <!--Footer-->
+
+            <footer id="footer">
+                <div class="box">
+                <h2><strong>Contact</strong></h2>
+                    <ul>
+                        <li><a>anaia.ktr@gmail.com</a></li>
+                    </ul>
+                </div>
+            <div class="copyright">
+                <p>© 2021 Anaïa. All rights reserved.</p>
             </div>
-            <div id='center' class="main center"></div>
-            
-        <!--<div class="header_image">
-                <img src="fondrose.png" alt="header_image" />
-            </div>-->
-        </form>
-    </header>
-            <!--<div class="banniere">
+            </footer> 
+        </main>
+    </body>
+</html>
+    
+   <!--<div class="banniere">
                 <img src="" alt="" />
                 <a href="#" class="bouton_rouge">Voir <img src="images/flecheblanchedroite.png" alt="" /></a>
             </div>
@@ -58,23 +85,3 @@
             <aside>
             </aside>
         </section>-->
-        
-        <main class="site-content">
-                <img src="images/kabira.jpg" alt="kabira"/>
-        </main>
-            
-            <!--<div class="push"></div>
-        </div>-->
-            <footer class="footer">
-                <div class="box">
-                    <h3><strong>Contact</strong></h3>
-                        <ul>
-                            <li><a href="#">anaia.ktr@gmail.com</a></li>
-                        </ul>  
-                </div>
-                    <div class="copyright">
-                    <p>© 2021 Anaïa. All rights reserved.</p>
-                    </div>
-            </footer>
-    </body>
-</html>
