@@ -5,8 +5,8 @@
 	font-style: normal;
 }
 
-#menu, input {
-	visibility: hidden;
+#menuToggle {
+    display: none;
 }
 
 /* Header */
@@ -14,7 +14,7 @@
 html,body {
     margin:0;
     padding:0;
-    height: 100%;
+    width: 100%;
 }
 
 #header
@@ -24,7 +24,7 @@ html,body {
     margin: 0 auto;
     z-index: 100;
     position: relative;
-    background: pink;
+    background: #D984A3;
 }
 
 #logo
@@ -39,7 +39,7 @@ html,body {
 {
     width: normal;
     height: normal;
-    margin-top: 1.4%;
+    margin-top: 5%;
 }
 
 .bloc_page
@@ -48,6 +48,10 @@ html,body {
 }
 
 /* Navigation */
+
+input, label {
+    display: none;
+}
 
 .basic-nav ul
 {
@@ -69,7 +73,7 @@ html,body {
     text-decoration: none;
 }
 
-nav a:hover
+.basic-nav a:hover
 {
     color: #760001;
 }
@@ -83,33 +87,92 @@ section h1, footer h1, nav a, h2
 
 /*Content*/
 
-body {
-    min-height: 100%;
-    margin: 0;
-}
-
-body 
+body h1
 {
-    background-color: #DD0000;
-    background-attachment: fixed; /*L'image de fond est fixe*/
-    background-size: 100%;/*le fond prend 100% de la page */
-    background-position: center;/* l'image de fond est centrée*/
-    background-size:cover;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    margin-top: 90px;
 }
 
-.site-content img {
-    width: 100%;
+body h2
+{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+
+body, html {
+    height:100%;
+}
+
+body
+{
+    background-color: #D9486E;
+    text-align: center;
+    font-family: 'quasimoda', Arial black, sans-serif;
+}
+
+body p
+{
+    color: white;
+    text-align: justify;
+    font-size: 1em;
+    margin: auto;
+    margin-right: 160px;
+    margin-left: 160px;
+    margin-top: 80px;
+}
+
+body ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+/*Images*/
+
+.image_1, .image_2, .image_3, .image_4, .image_5, .image_6, .image_7, .image_8, .image_9, .image_10, .image_11, .image_12, .image_13, .image_14, .image_15, .image_16, .image_17, .image_18, .image_19, .image_20, .image_21
+{
+    margin: auto;
+    margin-top: 5%;
+}
+
+.image_5 {
+    margin-right: 20%;
+}
+
+h3 {
+  color: white;
+}
+
+h4, h5 {
+  font-weight: bold;
+  font-style: italic;
 }
 
 /*Footer*/
-	
-footer {
-    clear: both;
-    position: relative;
-    height: 300px;
-    margin-top: -100px;
-    background-color: pink;
+
+html, body {
+  height: 100%;
+  margin: 0;
 }
+
+#content-wrap {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -320px;
+}
+
+#footer,
+.push {
+  height: 320px;
+  background-color: #D984A3;
+}
+
 
 footer h2, li {
     padding: 0;
@@ -120,8 +183,8 @@ footer h2 {
     text-transform: uppercase;
     color: white;
     font-size: 1.6em;
-    padding-left: 7%;
-    padding-top: 6%;
+    padding-right: 76%;
+    padding-top: 4%;
 }
 
 footer li {
@@ -140,25 +203,41 @@ footer li {
     font-weight: bold;
     color: white;
     text-align: center;
-    padding-bottom: 2%;
+    margin-bottom: 2%;
 }
 
 /*Media Queries*/
-	
+    
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-	.bloc_page {
-	display: none;
+.basic-nav {
+  display: none;
 }
 	
-#menu, input {
-    visibility: visible;
+#page-container {
+    width: 100%;
 }
-	
+
 #logo img {
     width: 62%;
     margin-top: 6%;
     padding-left: 60%;
     text-align: right;
+}
+	
+body h1 {
+    font-size: 3em;
+}
+	
+.presentation
+{
+    font-size: 0.9em;
+    margin: auto;
+    margin-right: 14%;
+    margin-left: 14%;
+    margin-top: 16%;
+    color: white;
+    margin-bottom: 20%;
+    text-align: justify;
 }
 	
 footer h2 {
@@ -183,7 +262,7 @@ footer {
     margin-top: -10px;
     background-color: pink;
 }
-
+	
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 html, body {
     overflow-x: hidden;
@@ -196,19 +275,6 @@ body {
     font-family: quasimoda, arial black, sans-serif;
 }
 	
-.header {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
-    box-shadow: none;
-    background-color: pink;
-    position: fixed;
-    height: 60px!important;
-    overflow: hidden;
-    z-index: 10;
-}
-
 #menuToggle
 {
   display: block;
@@ -326,7 +392,7 @@ body {
   padding: 38px;
   padding-top: 100px;
   
-  background: pink;
+  background: #D984A3;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
