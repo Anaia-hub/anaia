@@ -5,8 +5,8 @@
 	font-style: normal;
 }
 
-#menu {
-	display: none;
+#menu, input {
+	visibility: hidden;
 }
 
 /* Header */
@@ -150,8 +150,8 @@ footer li {
 	display: none;
 }
 	
-#menu {
-    display: contents;
+#menu, input {
+    visibility: visible;
 }
 	
 #logo img {
