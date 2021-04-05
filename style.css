@@ -175,14 +175,7 @@ footer h3, li {
 	display: flex;
 	flex-direction: column;
 }
-      
-footer {
-    clear: both;
-    position: relative;
-    height: 100%;
-    margin-top: -10px;
-    background-color: pink;
-}
+     
 
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 html, body {
