@@ -5,6 +5,10 @@
 	font-style: normal;
 }
 
+#menu {
+    display: none;
+}
+
 /* Header */
 
 html,body {
@@ -325,6 +329,7 @@ body
 #menuToggle input:checked ~ ul
 {
   transform: none;
+}
 }
 
 </style>
