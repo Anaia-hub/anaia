@@ -186,7 +186,7 @@ footer li {
 #logo img {
     width: 62%;
     margin-top: 6%;
-    margin-left: 60%;
+    padding-left: 60%;
     text-align: right;
 }
 body h1 {
