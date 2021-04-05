@@ -239,7 +239,12 @@ body h1 {
     margin-bottom: 16%;
     text-align: justify;
 }
-	
+
+.image_1, .image_2, .image_3, .image_4, .image_5, .image_6, .image_7, .image_8, .image_9, .image_10, .image_11, .image_12, .image_13, .image_14, .image_15, .image_16, .image_17, .image_18, .image_19, .image_20, .image_21
+{
+    margin: 10%;
+}
+
 body img {
   width: auto;
   max-width: 100%;
@@ -248,16 +253,15 @@ body img {
 	
 h3, h4 {
 	font-size: 1em;
-	line-height: 18px;
+	line-height: 20px;
 }
 	
 footer h2 {
 	font-weight: bold;
-	font-weight: bold;
 	padding-left: 15%;
 }
 	
-footer h3, li {
+footer li {
 	line-height: 9px;
 }
 
