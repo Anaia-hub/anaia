@@ -5,8 +5,8 @@
 	font-style: normal;
 }
 
-#menuToggle {
-    display: none;
+#menu {
+	display: none;
 }
 
 /* Header */
@@ -15,10 +15,6 @@ html,body {
     margin:0;
     padding:0;
     height: 100%;
-}
-
-#menu {
-	display: none;
 }
 
 #header
@@ -154,7 +150,7 @@ footer li {
 	display: none;
 }
 	
-#menuToggle {
+#menu {
     display: contents;
 }
 	
