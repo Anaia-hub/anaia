@@ -181,6 +181,12 @@ body
   padding: 0;
 }
 
+#logo img {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 42%;
+    text-align: right;
+}
 body h1 {
     font-size: 3em;
 }
