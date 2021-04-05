@@ -201,7 +201,15 @@ body {
     overflow: hidden;
     z-index: 10;
 }
-
+	
+#footer {
+  clear: both;
+  position: relative;
+  height: 100%;
+  margin-top: -20px;
+  background: pink;
+}
+	
 #menuToggle
 {
   display: block;
