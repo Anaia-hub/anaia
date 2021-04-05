@@ -185,75 +185,11 @@ footer li {
 /*Media Queries*/
     
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-    .bloc_page {
-    display: none;
-}
-
-input, label {
-    display: contents;
-}
-
-.sidebarMenuInner
-{
-    display: contents;
-    list-style-type: none;
-}
-    
-#logo img {
-    width: 50%;
-    margin-top: 5%;
-    margin-left: 42%;
-    text-align: right;
-}
-
-.presentation
-{
-    font-size: 0.8em;
-    margin: auto;
-    margin-right: 14%;
-    margin-left: 14%;
-    margin-top: 16%;
-    color: white;
-    margin-bottom: 20%;
-    text-align: justify;
-}
-	
-footer h3 {
-    letter-spacing: 1.4px;
-    font-weight: bold;
-    padding-left: 15%;
-}
-    
-footer h3, li {
-    line-height: 9px;
-}
-	
-body h1 {
-    font-size: 3em;
-}
-
-.box {
-    display: flex;
-    flex-direction: column;
-}
-      
-footer {
-    clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: -40px;
-    background-color: pink;
-}
 
 body
 {
   margin: 0;
   padding: 0;
-  
-  /* make it look decent enough */
-  background: red;
-  color: #cdcdcd;
-  font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
 #menuToggle
