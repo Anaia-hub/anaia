@@ -241,21 +241,19 @@ body h1 {
 }
 	
 body img {
-  width: auto ;
-  max-width: 100% ;
-  height: auto ;
-  margin: 8%;
+  width: auto;
+  max-width: 100%;
+  height: auto;
 }
 	
 h3, h4 {
 	font-size: 1em;
-	line-height: 4px;
+	line-height: 10px;
 }
 	
 footer h2 {
-	letter-spacing: 1.4px;
 	font-weight: bold;
-	padding-left: 15%;
+	margin: auto;
 }
 	
 footer h2, li {
@@ -404,7 +402,7 @@ body {
   padding: 38px;
   padding-top: 100px;
   
-  background: #D984A3;
+  background: pink;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
