@@ -5,7 +5,7 @@
 	font-style: normal;
 }
 
-#content[role="navigation"] {
+#menuToggle {
     display: none;
 }
 
