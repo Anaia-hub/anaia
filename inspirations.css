@@ -240,6 +240,12 @@ body h1 {
     text-align: justify;
 }
 	
+body img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+} 
+	
 footer h2 {
 	letter-spacing: 1.4px;
 	font-weight: bold;
