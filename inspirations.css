@@ -259,6 +259,13 @@ h3, h4 {
 footer p {
 	font-weight: bold;
 	font-size: 1em;
+	text-align: none;
+}
+	
+footer h2 {
+	letter-spacing: 1.4px;
+	font-weight: bold;
+	padding-left: 15%;
 }
 	
 footer li {
