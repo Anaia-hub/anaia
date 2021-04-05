@@ -228,15 +228,15 @@ body h1 {
     font-size: 3em;
 }
 	
-.text
+.inspiration p, .illustration p, .cinema p, .musique p, .photographie p, .vetements p, .jeux_video p
 {
     font-size: 0.9em;
     margin: auto;
-    margin-right: 14%;
-    margin-left: 14%;
+    margin-right: 10%;
+    margin-left: 10%;
     margin-top: 16%;
     color: white;
-    margin-bottom: 20%;
+    margin-bottom: 16%;
     text-align: justify;
 }
 	
