@@ -53,19 +53,19 @@ input, label {
     display: none;
 }
 
-nav ul
+.basic-nav ul
 {
     list-style-type: none;
     display: flex;
     margin-left: 440px;
 }
 
-nav li
+.basic-nav li
 {
     margin-right: 80px;
 }
 
-nav a
+.basic-nav a
 {
     font-size: 1.3em;
     color: white;
@@ -73,12 +73,12 @@ nav a
     text-decoration: none;
 }
 
-nav a:hover
+.basic-nav a:hover
 {
     color: #760001;
 }
 
-section h1, footer h1, nav a, h3
+section h1, footer h1, nav a, h2
 {
     font-family: quasimoda, serif;
     font-weight: normal;
@@ -92,7 +92,7 @@ body h1
     font-size: 5em;
     text-align: center;
     color: white;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .imageflottante
@@ -142,11 +142,11 @@ body
   background-color: pink;
 }
 
-footer h3, li {
+footer h2, li {
     padding: 0;
 }
 
-footer h3 {
+footer h2 {
     list-style-type: none;
     text-transform: uppercase;
     color: white;
