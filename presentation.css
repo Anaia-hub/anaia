@@ -102,12 +102,13 @@ body h1
     margin: auto;
 }
 
-body
+body 
 {
-    background-color: #BF0413;
-    width: 100%;
-    min-height: 100%;
-    font-family: 'quasimoda', Arial black, sans-serif;
+    background-color: #DD0000;
+    background-attachment: fixed; /*L'image de fond est fixe*/
+    background-size: 100%;/*le fond prend 100% de la page */
+    background-position: center;/* l'image de fond est centrée*/
+    background-size:cover;
 }
 
 .presentation
@@ -189,6 +190,7 @@ footer li {
     padding-left: 60%;
     text-align: right;
 }
+	
 body h1 {
     font-size: 3em;
 }
