@@ -242,13 +242,13 @@ body h1 {
 
 .image_1, .image_2, .image_3, .image_4, .image_5, .image_6, .image_7, .image_8, .image_9, .image_10, .image_11, .image_12, .image_13, .image_14, .image_15, .image_16, .image_17, .image_18, .image_19, .image_20, .image_21
 {
-    margin: 10%;
+    margin: 5%;
 }
 
 body img {
-  width: auto;
+  width: 40%;
   max-width: 100%;
-  height: auto;
+  height: 40%;
 }
 	
 h3, h4 {
