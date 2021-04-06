@@ -101,11 +101,11 @@ body h2
 
 body, html {
     height:100%;
+    background-color: #D9486E;
 }
 
 body p
 {
-    background-color: #D9486E;
     text-align: center;
     font-family: 'quasimoda', Arial black, sans-serif;
 }
