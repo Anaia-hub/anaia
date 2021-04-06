@@ -265,20 +265,13 @@ h3, h4 {
 footer h2 {
 	letter-spacing: 1.4px;
 	font-weight: bold;
-	padding-left: 15%;
+	padding-left: 5%;
 }
 	
 footer h3, li {
-	line-height: 9px;
+  line-height: 9px;
 }
-      
-#footer {
-  clear: both;
-  position: relative;
-  width: 100%;
-  margin-top: -20px;
-}
-	
+      	
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 html, body {
     overflow-x: hidden;
@@ -303,6 +296,13 @@ body {
     z-index: 10;
 }	
 	
+#footer {
+  clear: both;
+  position: relative;
+  width: 100%;
+  margin-top: -20px;
+}
+
 #menuToggle
 {
   display: block;
