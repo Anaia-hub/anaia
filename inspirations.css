@@ -5,8 +5,8 @@
 	font-style: normal;
 }
 
-#menuToggle {
-    display: none;
+#menu, input {
+	visibility: hidden;
 }
 
 /* Header */
