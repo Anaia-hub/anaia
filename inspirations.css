@@ -227,7 +227,7 @@ footer li {
 }
 	
 body h1 {
-    font-size: 3em;
+    font-size: 2em;
 }
 	
 .inspiration p, .illustration p, .cinema p, .musique p, .photographie p, .vetements p, .jeux_video p
@@ -262,11 +262,6 @@ h3, h4 {
 	line-height: 20px;
 }
 	
-.box {
-	display: flex;
-	flex-direction: column;
-}
-      
 footer h2 {
 	letter-spacing: 1.4px;
 	font-weight: bold;
@@ -276,17 +271,12 @@ footer h2 {
 footer h3, li {
 	line-height: 9px;
 }
-
-.box {
-	display: flex;
-	flex-direction: column;
-}
       
-footer {
-    clear: both;
-    position: relative;
-    height: 100%;
-    margin-top: -40px;
+#footer {
+  clear: both;
+  position: relative;
+  height: 100%;
+  margin-top: -20px;
 }
 	
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
