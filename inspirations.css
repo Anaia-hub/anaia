@@ -95,7 +95,104 @@ section h1, footer h1, nav a, h2
 	
 #page-container {
     width: 100%;
-}     
+}
+
+#logo img {
+    width: 62%;
+    margin-top: 6%;
+    padding-left: 60%;
+    text-align: right;
+}
+	
+body h1 {
+    font-size: 3em;
+}
+	
+.inspiration p, .illustration p, .cinema p, .musique p, .photographie p, .vetements p, .jeux_video p
+{
+    font-size: 0.9em;
+    margin: auto;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 16%;
+    color: white;
+    margin-bottom: 16%;
+    text-align: justify;
+}
+	
+.jeux_video p {
+    margin-bottom: 20%;
+}
+	
+.image_1, .image_2, .image_3, .image_4, .image_5, .image_6, .image_7, .image_8, .image_9, .image_10, .image_11, .image_12, .image_13, .image_14, .image_15, .image_16, .image_17, .image_18, .image_19, .image_20, .image_21
+{
+    margin: 5%;
+}
+
+body img {
+  width: 70%;
+  max-width: 80%;
+  height: 70%;
+}
+	
+h3, h4 {
+	font-size: 1em;
+	line-height: 20px;
+}
+	
+.box {
+	display: flex;
+	flex-direction: column;
+}
+      
+#footer {
+  clear: both;
+  position: relative;
+  height: 300px;
+  margin-top: -80px;
+  background: #D984A3;
+}
+
+footer h2, li {
+    padding: 0;
+}
+
+footer h2 {
+    list-style-type: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.6em;
+    padding-left: 7%;
+    padding-top: 6%;
+}
+
+footer h2 {
+	letter-spacing: 1.4px;
+	font-weight: bold;
+	padding-left: 15%;
+}
+	
+footer li {
+	line-height: 9px;
+}
+
+footer li {
+    list-style-type: none;
+    font-family: quasimoda, arial black, serif;
+    color: white;
+    font-size: 1.3em;
+    padding-left: 4%;
+    padding-bottom: 5%;
+}
+
+.copyright p
+{
+    font-size: 1em;
+    font-family: quasimoda, arial black, serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 1%;
+}    
 
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 html, body {
@@ -238,7 +335,7 @@ body {
   padding: 38px;
   padding-top: 100px;
   
-  background: pink;
+  background: #D984A3;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
