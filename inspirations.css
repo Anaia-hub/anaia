@@ -226,7 +226,11 @@ body h1 {
     margin-bottom: 16%;
     text-align: justify;
 }
-
+	
+.jeux_video p {
+    margin-bottom: 20%;
+}
+	
 .image_1, .image_2, .image_3, .image_4, .image_5, .image_6, .image_7, .image_8, .image_9, .image_10, .image_11, .image_12, .image_13, .image_14, .image_15, .image_16, .image_17, .image_18, .image_19, .image_20, .image_21
 {
     margin: 5%;
@@ -243,22 +247,6 @@ h3, h4 {
 	line-height: 20px;
 }
 	
-footer p {
-	font-weight: bold;
-	font-size: 1em;
-	text-align: none;
-}
-	
-footer h2 {
-	letter-spacing: 1.4px;
-	font-weight: bold;
-	padding-left: 15%;
-}
-	
-footer li {
-	line-height: 9px;
-}
-
 .box {
 	display: flex;
 	flex-direction: column;
@@ -285,6 +273,16 @@ footer h2 {
     padding-top: 6%;
 }
 
+footer h2 {
+	letter-spacing: 1.4px;
+	font-weight: bold;
+	padding-left: 15%;
+}
+	
+footer li {
+	line-height: 9px;
+}
+
 footer li {
     list-style-type: none;
     font-family: quasimoda, arial black, serif;
@@ -296,11 +294,10 @@ footer li {
 
 .copyright p
 {
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: quasimoda, arial black, serif;
     font-weight: bold;
     color: white;
-    text-align: center;
     padding-top: 1%;
 }
      
@@ -323,7 +320,6 @@ body {
     width: 100%;
     max-width: 100%;
     box-shadow: none;
-    background-color: pink;
     position: fixed;
     height: 60px!important;
     overflow: hidden;
