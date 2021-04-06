@@ -83,6 +83,27 @@ section h1, footer h1, nav a, h2
 
 /*Content*/
 
+/*Images*/
+
+.image_1, .image_2, .image_3, .image_4, .image_5, .image_6, .image_7, .image_8, .image_9, .image_10, .image_11, .image_12, .image_13, .image_14, .image_15, .image_16, .image_17, .image_18, .image_19, .image_20, .image_21
+{
+    margin: auto;
+    margin-top: 5%;
+}
+
+.image_5 {
+    margin-right: 20%;
+}
+
+h3 {
+  color: white;
+}
+
+h4, h5 {
+  font-weight: bold;
+  font-style: italic;
+}
+
 /*Footer*/
 	
 #footer {
