@@ -145,13 +145,13 @@ body p
 
 h3 {
   color: white;
-  margin: auto;
+  text-align: center;
   font-family: 'quasimoda', Arial black, sans-serif;
 }
 
 h4, h5 {
   font-weight: bold;
-  margin: auto;
+  text-align: center;
   font-style: italic;
   font-family: 'quasimoda', Arial black, sans-serif;
 }
