@@ -83,6 +83,47 @@ section h1, footer h1, nav a, h2
 
 /*Content*/
 
+/*Footer*/
+	
+#footer {
+  clear: both;
+  position: relative;
+  height: 300px;
+  margin-top: -80px;
+  background: #D984A3;
+}
+
+footer h2, li {
+    padding: 0;
+}
+
+footer h2 {
+    list-style-type: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.6em;
+    padding-left: 7%;
+    padding-top: 6%;
+}
+
+footer li {
+    list-style-type: none;
+    font-family: quasimoda, arial black, serif;
+    color: white;
+    font-size: 1.3em;
+    padding-left: 4%;
+    padding-bottom: 5%;
+}
+
+.copyright p
+{
+    font-size: 1.2em;
+    font-family: quasimoda, arial black, serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 .basic-nav {
