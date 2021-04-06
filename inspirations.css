@@ -167,7 +167,6 @@ footer h2, li {
 }
 
 footer h2 {
-    list-style-type: none;
     text-transform: uppercase;
     color: white;
     font-size: 1.6em;
@@ -255,6 +254,8 @@ h3, h4 {
 	flex-direction: column;
 }
       
+/*Footer*/
+	
 #footer {
   clear: both;
   position: relative;
@@ -276,16 +277,6 @@ footer h2 {
     padding-top: 6%;
 }
 
-footer h2 {
-	letter-spacing: 1.4px;
-	font-weight: bold;
-	padding-left: 15%;
-}
-	
-footer li {
-	line-height: 9px;
-}
-
 footer li {
     list-style-type: none;
     font-family: quasimoda, arial black, serif;
@@ -297,12 +288,14 @@ footer li {
 
 .copyright p
 {
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: quasimoda, arial black, serif;
     font-weight: bold;
     color: white;
+    text-align: center;
     padding-top: 1%;
-}    
+}
+
 
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 html, body {
