@@ -83,6 +83,33 @@ section h1, footer h1, nav a, h2
 
 /*Content*/
 
+body h1
+{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+}
+
+body h2
+{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+
+body, html {
+    height:100%;
+}
+
+body
+{
+    background-color: #D9486E;
+    text-align: center;
+    font-family: 'quasimoda', Arial black, sans-serif;
+}
+
 body p
 {
     color: white;
