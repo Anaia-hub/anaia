@@ -213,6 +213,10 @@ footer li {
   display: none;
 }
 	
+#menu, input {
+    visibility: visible;
+}
+	
 #page-container {
     width: 100%;
 }
@@ -277,14 +281,47 @@ footer li {
 	flex-direction: column;
 }
       
-footer {
-    clear: both;
-    position: relative;
-    height: 100%;
-    margin-top: -10px;
-    background-color: #D984A3;
+#footer {
+  clear: both;
+  position: relative;
+  height: 300px;
+  margin-top: -80px;
+  background: #D984A3;
 }
-	
+
+footer h2, li {
+    padding: 0;
+}
+
+footer h2 {
+    list-style-type: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.6em;
+    padding-left: 7%;
+    padding-top: 6%;
+}
+
+footer li {
+    list-style-type: none;
+    font-family: quasimoda, arial black, serif;
+    color: white;
+    font-size: 1.3em;
+    padding-left: 4%;
+    padding-bottom: 5%;
+}
+
+.copyright p
+{
+    font-size: 1.2em;
+    font-family: quasimoda, arial black, serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+}
+     
+
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 html, body {
     overflow-x: hidden;
@@ -296,6 +333,19 @@ body {
     margin: 0;
     font-family: quasimoda, arial black, sans-serif;
 }
+	
+.header {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    background-color: pink;
+    position: fixed;
+    height: 60px!important;
+    overflow: hidden;
+    z-index: 10;
+}	
 	
 #menuToggle
 {
