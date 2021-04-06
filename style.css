@@ -207,7 +207,6 @@ body {
   position: relative;
   height: 100%;
   margin-top: -20px;
-  background: pink;
 }
 	
 #menuToggle
@@ -327,7 +326,7 @@ body {
   padding: 38px;
   padding-top: 100px;
   
-  background: pink;
+  background: #D984A3;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
