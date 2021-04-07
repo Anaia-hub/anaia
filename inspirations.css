@@ -247,7 +247,7 @@ body h1 {
 .inspiration p, .illustration p, .cinema p, .musique p, .photographie p, .vetements p, .jeux_video p
 {
     font-size: 0.9em;
-    margin: auto;
+    text-align: center;
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 16%;
@@ -257,18 +257,12 @@ body h1 {
 }
 	
 .image_21 h3 {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 	
 .image_1, .image_2, .image_3, .image_4, .image_5, .image_6, .image_7, .image_8, .image_9, .image_10, .image_11, .image_12, .image_13, .image_14, .image_15, .image_16, .image_17, .image_18, .image_19, .image_20, .image_21
 {
     margin: 5%;
-}
-
-body img {
-  width: 70%;
-  max-width: 80%;
-  height: 70%;
 }
 	
 h3, h4 {
@@ -279,7 +273,7 @@ h3, h4 {
 footer h2 {
 	letter-spacing: 1.4px;
 	font-weight: bold;
-	padding-left: 5%;
+	padding-left: 10%;
 }
 	
 footer h2, li {
@@ -287,11 +281,7 @@ footer h2, li {
 }
 	
 footer li {
-  margin bottom: 8%;
-}
-      	
-.copyright p {
-  margin-bottom: 8%;
+  margin bottom: 14%;
 }
 	
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
