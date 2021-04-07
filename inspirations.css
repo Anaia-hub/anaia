@@ -225,6 +225,12 @@ body ul {
     flex-direction: column;
 }
 	
+body img {
+  width: 80%;
+  max-width: 80%;
+  height: 80%;
+}
+	
 #menu, input {
     visibility: visible;
 }
