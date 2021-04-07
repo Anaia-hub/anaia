@@ -218,10 +218,17 @@ footer li {
 .basic-nav {
   display: none;
 }
+
+body {
+    margin:0;
+    padding:0;
+    height: 100%;
+}
 	
 body ul
 {
     flex-direction: column;
+    margin: auto;
 }
 	
 #menu, input {
