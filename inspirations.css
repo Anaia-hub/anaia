@@ -256,8 +256,8 @@ body h1 {
     text-align: justify;
 }
 	
-.jeux_video h3 {
-    margin-bottom: 20%;
+.image_21 h3 {
+    margin-bottom: 10px;
 }
 	
 .image_1, .image_2, .image_3, .image_4, .image_5, .image_6, .image_7, .image_8, .image_9, .image_10, .image_11, .image_12, .image_13, .image_14, .image_15, .image_16, .image_17, .image_18, .image_19, .image_20, .image_21
@@ -284,6 +284,10 @@ footer h2 {
 	
 footer h2, li {
   line-height: 9px;
+}
+	
+footer li {
+  margin bottom: 8%;
 }
       	
 .copyright p {
@@ -318,6 +322,7 @@ body {
   clear: both;
   position: relative;
   width: 100%;
+  background-color: #D984A3;
   margin-top: -20px;
 }
 
