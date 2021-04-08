@@ -249,18 +249,6 @@ footer li {
 
 /*Media Queries*/
 
-@media only screen and (max-width: 700px) {
-html, body {
-    overflow-x: hidden;
-    height: 100%;
-}
-}
-	
-body {
-    padding: 0;
-    margin: 0;
-    font-family: quasimoda, arial black, sans-serif;
-}
 
 @media only screen and (max-width: 480px) {
 .basic-nav {
@@ -283,91 +271,6 @@ body img {
     visibility: visible;
 }
 	
-#page-container {
-    width: 100%;
-}
-
-#logo img {
-    width: 62%;
-    margin-top: 6%;
-    padding-left: 60%;
-    text-align: right;
-}
-	
-body h1 {
-    font-size: 2em;
-}	
-	
-h3 {
-	font-size: 0.6em;
-	line-height: 20px;
-}
-    
- h2 {
-	font-size: 1em;
-	line-height: 20px;
-}
-	
-footer h2 {
-	letter-spacing: 1.4px;
-	font-weight: bold;
-	padding-left: 15%;
-}
-	
-footer h3, li {
-	line-height: 9px;
-}
-
-.box {
-	display: flex;
-	flex-direction: column;
-}
-	
-#footer {
-  clear: both;
-  position: relative;
-  width: 100%;
-  background-color: #D984A3;
-  margin-top: -10px;
-}
-	
-.copyright p {
-	padding-top: -5%;
-}
-	
-#image_1_2_3, .image_4_5_6, .image_7_8 {
-    text-align: center;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 16%;
-    color: white;
-    margin-bottom: 16%;
-    text-align: justify;
-}
-	
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
-html, body {
-    overflow-x: hidden;
-    height: 100%;
-}
-	
-body {
-    padding: 0;
-    margin: 0;
-    font-family: quasimoda, arial black, sans-serif;
-}
-	
-.header {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
-    box-shadow: none;
-    position: fixed;
-    height: 60px!important;
-    overflow: hidden;
-    z-index: 10;
-}	
 
 #menuToggle
 {
