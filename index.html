@@ -2,56 +2,118 @@
 <html lang="fr">
     <head>
             <meta charset="utf-8" />
-            <meta name="viewport" content="width=device-width">
-            <link rel="stylesheet" type="text/css" href="style.css" />
+            <link rel="stylesheet" href="inspirations.css" />
             <link rel="stylesheet" href="https://use.typekit.net/elc6swy.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Anaïa</title>
+            <style>       
+      			ul{
+        			list-style-type: none;
+      			}
+    	    </style>
     </head>
 
-    <header>
-        <form class="pink-background">
-            <div id="logo">
-                <img src="logo/anaia_logo.png" alt="logo_anaïa" /> 
-            </div>
-                
-        <nav>
-            <div class="bloc_page">
-                <ul>
-                    <li><a href="file:///Users/apple/Downloads/test/website001.html">Accueil</a></li>
-                    <li><a href="file:///Users/apple/Downloads/test/website001_po.html">Portfolio</a></li>
-                    <li><a href="https://amazing-mirzakhani-a98f1e.netlify.app/">Présentation</a></li>
-                    <li><a href="file:///Users/apple/Downloads/test/website001_insp.html">Inspiration</a></li>
-                </ul>
-            </div>
-        </nav>
-            <!--<div class="header_image">
-                <img src="fondrose.png" alt="header_image" />
-            </div>-->
-        </form>
-        </header>
-    
     <body>
-        
-    </body>
-            <div class="banniere">
-                <img src="" alt="" />
-                <a href="#" class="bouton_rouge">Voir <img src="images/flecheblanchedroite.png" alt="" /></a>
-            </div>
+        <main id="page-container">
+        <div id="content-wrap">
+                <header id="header" class="absolute fullwidth light">
+                <div id="logo">
+                    <a href="https://www.anaiaktr.com/"><img src="logo/anaia_logo.png" alt="logo_anaïa" /></a> 
+                </div>
+                
+                <nav class="basic-nav">
+                    <div class="bloc_page">
+                        <ul>
+                            <li><a href="https://www.anaiaktr.com/">Accueil</a></li>
+                            <li><a href="https://personal-presentation.netlify.app/">Présentation</a></li>
+                            <li><a href="https://personal-work.netlify.app/">Portfolio</a></li>
+                            <li><a href="https://personal-inspiration.netlify.app/">Inspirations</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+
+         <!--Menu smartphone-->
+                <nav id="content" role="navigation">
+                    <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+                        <input type="checkbox" />
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+                        <ul id="menu">
+                            <a href="https://www.anaiaktr.com/"><li>Accueil</li></a>
+                            <a href="https://personal-presentation.netlify.app/"><li>Présentation</li></a>
+                            <a href="https://personal-work.netlify.app/"><li>Portfolio</li></a>
+                            <a href="https://personal-inspiration.netlify.app/"><li>Inspirations</li></a>
+                        </ul>
+                    </div>
+                </nav>
+                </header>
+    
+            <h1>Portfolio</h1>
+                <div id="image_1_2_3">
+                    <ul>
+                        <div class="image_1">
+                            <li><h1>Qui suis-je ?</h1>
+                            <img src="images/moodboard.png" alt="image_1" width="320" height="420">
+                        </div>
+                            </li>  
+                        <div class="image_2">                    
+                            <li><h2>d'antan</h2>
+                            <img src="images/kabira.jpg" alt="image_2" width="420" height="320">
+                        </div>
+                            </li>
+                        <div class="image_3">
+                            <li><h3>Hanabi</h3>
+                            <img src="images/hanabi.png" alt="image_3" width="320" height="420">
+                        </div>
+                            </li>
+                    </ul>
+                </div>
+
+                <div id="image_4_5_6">
+                    <ul>
+                        <div class="image_4">
+                            <li><h1>Distributeur de bonbons 3D</h1>
+                            <img src="images/Acid_Pills.png" alt="image_4" width="320" height="420">
+                        </div>
+                            </li>  
+                        <div class="image_5">                    
+                            <li><h2>Affiche</h2>
+                            <img src="images/hana.png" alt="image_5" width="320" height="420">
+                        </div>
+                            </li>
+                        <div class="image_6">
+                            <li><h3>Affiche "Pour Un Autre Regard"</h3>
+                            <img src="images/poster.png" alt="image_6" width="320" height="420">
+                        </div>
+                            </li>
+                    </ul>
+                </div>
             </div>
             
-        <section>
-            <aside>
-            </aside>
-        </section>
-    <div class="pink-footer">
-        <footer class="social media">
-            <ul>
-                <li><a href="file:///Users/apple/Downloads/test/website001.html#">Contact</a></li>
-                <footer class="social media">
-            </ul>    
-        <div class="sub_footer">
-            <p>© 2021 Anaïa. All rights reserved.</p>
-        </div>
-        </footer>
-    </div>
+             <!--Footer-->
+
+            <footer id="footer">
+                <div class="box">
+                <h2><strong>Contact</strong></h2>
+                    <ul>
+                        <li><a>anaia.ktr@gmail.com</a></li>
+                    </ul>
+                </div>
+            <div class="copyright">
+                <p>© 2021 Anaïa Khatar</p>
+            </div>
+            </footer> 
+        </main>
+    </body>
 </html>
