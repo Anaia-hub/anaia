@@ -279,15 +279,24 @@ h3, h4 {
 footer h2 {
 	letter-spacing: 1.4px;
 	font-weight: bold;
-	padding-left: 10%;
+	padding-left: 15%;
 }
 	
-footer h2, li {
-  line-height: 9px;
+footer h3, li {
+	line-height: 9px;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
 }
 	
-footer li {
-  margin bottom: 14%;
+#footer {
+  clear: both;
+  position: relative;
+  width: 100%;
+  background-color: #D984A3;
+  margin-top: -10px;
 }
 	
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
@@ -313,14 +322,6 @@ body {
     overflow: hidden;
     z-index: 10;
 }	
-	
-#footer {
-  clear: both;
-  position: relative;
-  width: 100%;
-  background-color: #D984A3;
-  margin-top: -10px;
-}
 
 #menuToggle
 {
