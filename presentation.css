@@ -130,6 +130,11 @@ body
 
 /*Footer*/
 
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
 #footer {
   clear: both;
   position: relative;
