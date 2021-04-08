@@ -355,9 +355,9 @@ body {
   position: absolute;
   width: 300px;
   margin: -60px 0 0 -50px;
-  padding: 38px;
+  padding: 60px;
   padding-top: 100px;
-  
+ 
   background: #D984A3;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
