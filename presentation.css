@@ -145,9 +145,8 @@ body
   bottom: 0;
   width: 100%;
   height: 18rem;            /* Footer height */
-  background-color: #D984A3;
+  background-color: pink;
 }
-
 
 footer h2, li {
     padding: 0;
@@ -159,7 +158,7 @@ footer h2 {
     color: white;
     font-size: 1.6em;
     padding-left: 7%;
-    padding-top: 6%;
+    padding-top: 4%;
 }
 
 footer li {
@@ -169,16 +168,6 @@ footer li {
     font-size: 1.3em;
     padding-left: 4%;
     padding-bottom: 5%;
-}
-
-.copyright p
-{
-    font-size: 1.2em;
-    font-family: quasimoda, arial black, serif;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    padding-bottom: 2%;
 }
 
 /*Media Queries*/
