@@ -257,14 +257,13 @@ footer li {
 
 body ul {
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
     flex-direction: column;
 }
 	
 body img {
-  width: 80%;
-  max-width: 80%;
-  height: 80%;
+  width: 90%;
+  max-width: 90%;
 }
 	
 #menu, input {
@@ -285,11 +284,6 @@ body img {
 body h1 {
     font-size: 2em;
 }	
-	
-.image_1, .image_2, .image_3, .image_4, .image_5, .image_6, .image_7
-{
-    margin: 5%;
-}
 	
 h3 {
 	font-size: 0.6em;
