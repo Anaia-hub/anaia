@@ -115,28 +115,59 @@ body ul
     display: flex;
 }
 
-#image_1_2_3 {
-    display: inline-block;
+#image_1_2_3 ul {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#image_1_2_3 ul li {
+    display: inline;
 }
 
 .image_1
 {
-    margin-left: 4%;
     width: 60%;
 }
 
 .image_2
 {
-    margin-left: 4%;
     width: 60%;
 }
 
 .image_3
 {
-    margin-left: 4%;
     width: 60%;
 }
 
+#image_4_5_6 ul {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#image_4_5_6 ul li {
+    display: inline;
+}
+
+.image_4 
+{
+    width: 60%;
+}
+
+.image_5 
+{
+    width: 60%;
+}
+
+.image_6 
+{
+    width: 60%;
+}
+
+.image_7 
+{
+    margin-bottom: 14%;
+    width: 60%;
+}
 
 /*Footer*/
 
