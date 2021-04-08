@@ -136,13 +136,18 @@ body
   min-height: 100vh;
 }
 
+#content-wrap {
+  padding-bottom: 18rem;    /* Footer height */
+}
+
 #footer {
-  clear: both;
-  position: relative;
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  margin-top: -10px;
+  height: 18rem;            /* Footer height */
   background-color: #D984A3;
 }
+
 
 footer h2, li {
     padding: 0;
