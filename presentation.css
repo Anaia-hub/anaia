@@ -114,19 +114,12 @@ body h1
     color: white;
 }
 
-body {
-    min-height: 100%;
-    margin: 0;
-}
-
-body 
+body
 {
-    background-color: #D9486E;
-    background-attachment: fixed; /*L'image de fond est fixe*/
-    background-size: 100%;/*le fond prend 100% de la page */
-    background-position: center;/* l'image de fond est centrée*/
-    background-size:cover;
-    font-family: quasimoda, arial black, sans-serif;
+    background-color: #BF0413;
+    width: 100%;
+    min-height: 100%;
+    font-family: 'quasimoda', Arial black, sans-serif;
 }
 
 /*Footer*/
