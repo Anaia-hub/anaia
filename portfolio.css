@@ -78,7 +78,7 @@ input, label {
     color: #760001;
 }
 
-section h1, footer h1, nav a, h2
+section h1, footer h1, nav a
 {
     font-family: quasimoda, serif;
     font-weight: normal;
@@ -96,6 +96,11 @@ h1
 ul h1, h2, h3
 {
     font-size: 1.5em;
+}
+
+body h3
+{
+    font-size: 1em;
 }
 
 body 
