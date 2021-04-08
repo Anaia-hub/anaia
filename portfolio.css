@@ -254,12 +254,12 @@ html, body {
     overflow-x: hidden;
     height: 100%;
 }
-}
 	
 body {
     padding: 0;
     margin: 0;
     font-family: quasimoda, arial black, sans-serif;
+}
 }
 
 @media only screen and (max-width: 480px) {
