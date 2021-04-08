@@ -256,13 +256,12 @@ footer li {
 }
 
 body ul {
-    margin: 0 auto;
-    width: 90%;
     flex-direction: column;
 }
 	
 body img {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
 }
 	
 #menu, input {
