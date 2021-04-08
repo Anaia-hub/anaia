@@ -102,16 +102,6 @@ body h1
     margin: auto;
 }
 
-body 
-{
-    background-color: #D9486E;
-    background-attachment: fixed; /*L'image de fond est fixe*/
-    background-size: 100%;/*le fond prend 100% de la page */
-    background-position: center;/* l'image de fond est centrée*/
-    background-size:cover;
-    font-family: quasimoda, arial black, sans-serif;
-}
-
 .presentation
 {
     font-size: 1.6em
@@ -121,6 +111,21 @@ body
     margin-left: 10%;
     margin-top: 8%;
     color: white;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+body 
+{
+    background-color: #D9486E;
+    background-attachment: fixed; /*L'image de fond est fixe*/
+    background-size: 100%;/*le fond prend 100% de la page */
+    background-position: center;/* l'image de fond est centrée*/
+    background-size:cover;
+    font-family: quasimoda, arial black, sans-serif;
 }
 
 /*Footer*/
