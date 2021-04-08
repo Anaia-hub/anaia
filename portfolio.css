@@ -87,24 +87,25 @@ section h1, footer h1, nav a
 
 /*Content*/
 
-h1
-{
+h1 {
     font-size: 5em;
     text-align: center;
 }
 
-ul h1, h2, h3
-{
+ul h1, h2, h3 {
     font-size: 1.5em;
 }
 
-body h3
-{
+body h3 {
     font-size: 1em;
 }
 
-body 
-{
+body h2 {
+    text-align: center;
+}
+
+
+body {
     background-color: #D9486E;
     background-attachment: fixed; /*L'image de fond est fixe*/
     background-size: 100%;/*le fond prend 100% de la page */
@@ -114,8 +115,7 @@ body
     color: white;
 }
 
-body ul
-{
+body ul {
     list-style-type: none;
     display: flex;
 }
