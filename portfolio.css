@@ -249,7 +249,7 @@ footer li {
 
 /*Media Queries*/
 
-@media only screen and (max-width: 1281px) {
+@media only screen and (min-width: 1400px) {
 #page-container {
   position: relative;
   min-height: 100vh;
@@ -267,6 +267,7 @@ footer li {
   background-color: #D984A3;
 }
 }
+
 @media only screen and (max-width: 700px) {
 html, body {
     overflow-x: hidden;
