@@ -266,7 +266,7 @@ h3
 {
 	font-size: 1em;
 	width: 100%;
-	line-height: 20px;
+	line-height: 24px;
 	color: white;
 	margin: 0 auto;
 }
@@ -286,6 +286,10 @@ footer h2 {
 	
 footer h3, li {
 	line-height: 9px;
+}
+	
+footer li {
+	margin-bottom: 12px;
 }
 
 .box {
