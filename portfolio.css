@@ -341,9 +341,10 @@ footer h2 {
 
 footer h2, footer li {
 	display: none;
+}
 	
 .copyright p {
-	padding-top: 20px;
+	padding-top: 40px;
 }
 	
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
