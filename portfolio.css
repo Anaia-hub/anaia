@@ -249,6 +249,15 @@ footer li {
 
 /*Media Queries*/
 
+@media only screen and (max-width: 1281px) {
+#footer {
+  clear: both;
+  position: relative;
+  width: 100%;
+  background-color: #D984A3;
+  margin-top: -10px;
+}
+	
 @media only screen and (max-width: 700px) {
 html, body {
     overflow-x: hidden;
@@ -267,6 +276,10 @@ body {
   display: none;
 }
 
+#page-container {
+    width: 100%;
+}
+	
 body ul {
     margin: 0 auto;
     width: 100%;
