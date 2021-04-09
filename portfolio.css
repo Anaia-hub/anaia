@@ -301,8 +301,8 @@ body ul {
     width: 100%;
 }
 
-#logo img
-{
+#logo img {
+  width: 62%;
   position: absolute;
   top: 10%;
   right: 4%; 
