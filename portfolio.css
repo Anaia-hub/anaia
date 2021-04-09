@@ -329,8 +329,9 @@ h2 {
 
 #footer {
   background-color: red;
-  margin-top: -40px;
+  min-height: 50vh;
 }
+
 	
 footer h2 {
 	letter-spacing: 1.4px;
