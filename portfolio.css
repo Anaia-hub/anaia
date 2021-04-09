@@ -302,10 +302,10 @@ body ul {
 }
 
 #logo img {
-  width: 50%;
-  position: absolute;
-  top: 6%;
-  right: 8%; 
+    width: 62%;
+    margin-top: 6%;
+    padding-left: 60%;
+    text-align: right;
 }
 	
 body h1 {
