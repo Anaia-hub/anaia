@@ -178,11 +178,11 @@ footer h2 {
 }
 	
 footer h3, li {
-	line-height: 6px;
+	line-height: 5px;
 }
 	
-.copyright p, li {
-	line-height: 14px;
+.copyright p {
+	line-height: 18px;
 }
 
 .box {
