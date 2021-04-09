@@ -233,10 +233,10 @@ footer h2 {
 	padding-left: 15%;
 }
 	
-footer h2, li {
+footer h3, footer li {
 	line-height: 9px;
 }
-	
+
 .copyright p {
 	margin-top: 62px;
 }
@@ -245,12 +245,13 @@ footer h2, li {
 	display: flex;
 	flex-direction: column;
 }
-      
+	
 #footer {
-    clear: both;
-    position: relative;
-    height: 100%;
-    margin-top: -10px;
+  clear: both;
+  position: relative;
+  width: 100%;
+  background-color: #D984A3;
+  margin-top: -10px;
 }
 	
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
