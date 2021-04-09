@@ -212,6 +212,7 @@ footer li {
 	
 body h1 {
     font-size: 3em;
+    margin-top: 6%;
 }
 	
 .presentation
@@ -222,7 +223,7 @@ body h1 {
     margin-left: 14%;
     margin-top: 16%;
     color: white;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     text-align: justify;
 }
 	
@@ -249,7 +250,7 @@ footer h2, li {
     clear: both;
     position: relative;
     height: 100%;
-    margin-top: -6px;
+    margin-top: -14px;
 }
 	
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
