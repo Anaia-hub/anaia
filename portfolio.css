@@ -274,28 +274,20 @@ body img {
 #page-container {
     width: 100%;
 }
-
-.image_1, .image_2, .image_3, .image_4, .image_5, .image_6 {
-    margin: 5%;
-}
 	
 h3 {
 	font-size: 0.8em;
-	width: 100%;
-	line-height: 24px;
+	line-height: 20px;
 	color: white;
-	margin: 0 auto;
 }
 
+h1 {
+	font-size: 2em;
+}
+	
 h2 {
 	font-size: 1em;
-	line-height: 30px;
-	margin: 0 auto;
-}
-
-html, body {
-    overflow-x: hidden;
-    height: 100%;
+	line-height: 40px;
 }
 	
 body {
