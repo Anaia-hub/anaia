@@ -275,18 +275,18 @@ body h1 {
     margin: 5%;
 }
 
-.image_1 h3, .image_2 h3, .image_3 h3, .image_4 h3, .image_5 h3, .image_6 h3, .image_7 h3, .image_8 h3, .image_9 h3, .image_10 h3, .image_11 h3, .image_12 h3, .image_13 h3, .image_14 h3, .image_15 h3, .image_16 h3, .image_17 h3, .image_18 h3, .image_19 h3, .image_20 h3, .image_21 h3
+h3
 {
 	font-size: 1em;
 	width: 100%;
 	line-height: 20px;
-	text-align: center;
+	margin: 0 auto;
 }
 
 body h4 {
 	font-size: 1em;
 	line-height: 10px;
-	text-align: center;
+	margin: 0 auto;
 }
 
 	
