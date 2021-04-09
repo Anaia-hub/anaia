@@ -329,7 +329,7 @@ h2 {
 
 #footer {
   background-color: #D9486E;
-  margin-bottom: 50px;
+  margin-bottom: -60px;
 }
 	
 footer h2 {
@@ -337,7 +337,6 @@ footer h2 {
 	font-weight: bold;
 	padding-left: 15%;
 }
-
 
 footer h2, footer li {
 	display: none;
