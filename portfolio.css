@@ -326,6 +326,14 @@ h2 {
 	font-size: 1.8em;
 	line-height: 30px;
 }
+
+#footer {
+  display: none;
+}
+
+footer h2, footer li, footer p {
+  display: content;
+}
 	
 footer h2 {
 	letter-spacing: 1.4px;
