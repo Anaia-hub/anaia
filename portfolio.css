@@ -317,9 +317,14 @@ h3 {
 	line-height: 20px;
 }
     
- h2 {
-	font-size: 2em;
+h2 {
+	font-size: 1.8em;
 	line-height: 20px;
+}
+    
+.image_4 h2 {
+	font-size: 1.8em;
+	line-height: 30px;
 }
 	
 footer h2 {
@@ -342,7 +347,6 @@ footer h3, li {
   position: relative;
   width: 100%;
   background-color: #D984A3;
-  margin-top: -10px;
 }
 	
 .copyright p {
