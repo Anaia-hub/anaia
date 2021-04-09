@@ -285,9 +285,10 @@ body h1 {
 
 h3 {
 	font-size: 1.2em;
-	line-height: 12px;
+	line-height: 18px;
 	color: white;
-	margin: auto;
+	text-align: left;
+	margin: 5%;
 }
 
 h4 {
