@@ -289,8 +289,8 @@ body ul {
   margin-bottom: 10px; 
 }
 
-#image_4_5_6 ul {
-    margin-bottom: -6%;
+#image_4_5_6 {
+    margin-bottom: 6%;
 }
 	
 #menu, input {
@@ -322,7 +322,7 @@ h2 {
 	line-height: 20px;
 }
     
-.image_4 h2 {
+.image_4, .image_6 h2 {
 	font-size: 1.8em;
 	line-height: 30px;
 }
