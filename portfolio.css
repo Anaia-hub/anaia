@@ -301,11 +301,11 @@ body ul {
     width: 100%;
 }
 
-#logo img {
-    width: 62%;
-    margin-top: 6%;
-    padding-left: 60%;
-    text-align: right;
+#logo img
+{
+  position: absolute;
+  top: 10%;
+  right: 4%; 
 }
 	
 body h1 {
