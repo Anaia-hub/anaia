@@ -180,7 +180,7 @@ body
 }
 
 .illustration9 {
-  margin-bottom: 12%;
+  margin-bottom: 20%;
 }
 
 /*Footer*/
@@ -303,13 +303,13 @@ h4 {
   height: 30px;
 }
 	
-footer h2 {
+#footer h2 {
 	letter-spacing: 1.4px;
 	font-weight: bold;
 	padding-left: 15%;
 }
 
-footer h2, footer li {
+#footer h2, #footer li {
 	display: none;
 }
 	
