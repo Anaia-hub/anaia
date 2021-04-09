@@ -283,14 +283,14 @@ body ul {
 }
 	
 .image_1, .image_2, .image_3, .image_4, .image_5, .image_6 {
-  width: 100%;
-  max-width: 100%;
-  height: 100%;
+  width: 90%;
+  max-width: 90%;
+  height: 90%;
   margin-bottom: 10px; 
 }
 
 #image_4_5_6 ul {
-    margin-bottom: 10px;
+    margin-bottom: -6%;
 }
 	
 #menu, input {
@@ -309,16 +309,16 @@ body ul {
 }
 	
 body h1 {
-    font-size: 3em;
+    font-size: 3.6em;
 }	
 	
 h3 {
-	font-size: 0.6em;
+	font-size: 1em;
 	line-height: 20px;
 }
     
  h2 {
-	font-size: 1em;
+	font-size: 2em;
 	line-height: 20px;
 }
 	
