@@ -292,6 +292,10 @@ footer li {
 	margin-bottom: 26px;
 }
 
+.copyright p {
+	margin-top: 8px;
+}
+
 .box {
 	display: flex;
 	flex-direction: column;
