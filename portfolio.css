@@ -339,19 +339,11 @@ footer h3, li {
 
 .box {
 	display: flex;
-	flex-direction: column;
-}
-	
-#footer {
-  clear: both;
-  position: relative;
-  width: 100%;
-  background-color: #D984A3;
-  margin-top: -94px;
+	text-align: center;
 }
 	
 .copyright p {
-	padding-top: -5%;
+	padding-top: 20px;
 }
 	
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
