@@ -329,7 +329,7 @@ h2 {
 
 #footer {
   background-color: red;
-  padding: 5px 0px 5px 0px;
+  margin-top: -40px;
 }
 	
 footer h2 {
