@@ -91,7 +91,7 @@ body h1
     margin-top: 90px;
 }
 
-body h2
+.inspiration h2, .illustration h2, .illustration1 h2, .illustration2 h2, .illustration3 h2, .illustration4 h2, .illustration5 h2, .illustration6 h2, .illustration7 h2, .illustration8 h2, .illustration9 h2
 {
     font-size: 2em;
     text-align: center;
