@@ -328,11 +328,7 @@ h2 {
 }
 
 #footer {
-  display: none;
-}
-
-footer h2, footer li, footer p {
-  display: content;
+  background-color: none;
 }
 	
 footer h2 {
