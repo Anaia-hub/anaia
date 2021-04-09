@@ -273,7 +273,7 @@ footer li {
 }
 
 #page-container {
-    width: 90%;
+    width: 100%;
 }
 	
 body ul {
@@ -322,14 +322,14 @@ h2 {
 	line-height: 20px;
 }
     
-.image_4, .image_6 h2 {
+.image_4 h2, .image_6 h2 {
 	font-size: 1.8em;
 	line-height: 30px;
 }
 
 #footer {
   background-color: red;
-  min-height: 50vh;
+  width: 60%;
 }
 
 	
