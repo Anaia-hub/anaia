@@ -273,7 +273,7 @@ footer li {
 }
 
 #page-container {
-    width: 100%;
+    width: 90%;
 }
 	
 body ul {
@@ -350,7 +350,7 @@ footer h2, footer li {
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 html, body {
     overflow-x: hidden;
-    height: 90%;
+    height: 100%;
 }
 	
 body {
