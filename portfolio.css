@@ -100,10 +100,6 @@ body h3 {
     font-size: 1em;
 }
 
-.image_1 h2 {
-    margin: auto;
-}
-
 body {
     background-color: #D9486E;
     background-attachment: fixed; /*L'image de fond est fixe*/
