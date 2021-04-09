@@ -290,6 +290,10 @@ h3 {
 	text-align: left;
 }
 
+.image_3 h3 {
+	line-height: 18px;
+}
+	
 h4 {
 	font-size: 1em;
 	line-height: 17px;
