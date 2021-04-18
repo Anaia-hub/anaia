@@ -168,8 +168,36 @@ body ul {
     width: 60%;
 }
 
-#image_4_5_6 {
-    margin-bottom: 14%;
+.image_8 {
+    width: 60%;
+    margin: auto;
+}
+
+.image_9 {
+    width: 60%;
+    margin: auto; 
+}
+
+#image_7_8 ul {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#image_9 ul {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#image_9 ul li {
+    display: inline;
+}
+
+#image_9 img {
+    margin-bottom: 18%;
+}
+
+#image_9 h2 {
+    margin-top: 10%;
 }
 
 /*Footer*/
