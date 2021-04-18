@@ -314,11 +314,23 @@ body ul {
     flex-direction: column;
 }
 	
-.image_1, .image_2, .image_3, .image_4, .image_5, .image_6, .image_7, .image_8, .image_9 {
+.image_1, .image_2, .image_3, .image_4, .image_5, .image_6, .image_7, .image_8 {
   width: 90%;
   max-width: 90%;
   height: 90%;
   margin-bottom: 20px; 
+}
+
+.image_9 {
+    margin-left: none;
+    width: 80%;
+    max-width: 80%;
+    height: 80%;
+    margin-bottom: 20px; 
+}
+	
+#image_9 h2 {
+    margin-left: none;
 }
 
 #image_9 {
