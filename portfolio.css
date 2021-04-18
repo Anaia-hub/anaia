@@ -322,8 +322,9 @@ body ul {
 }
 	
 .image_8 img {
-  width: 50%;
-  max-width: 50%;
+  width: 90%;
+  max-width: 90%;
+  height: 90%;
   margin-left: 1%;
   margin-bottom: 20px; 
 }
