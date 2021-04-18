@@ -181,6 +181,7 @@ body ul {
 #image_7_8 ul {
     margin: 0 auto;
     width: 90%;
+    margin-top: 10%;
 }
 
 #image_9 ul {
@@ -197,7 +198,7 @@ body ul {
 }
 
 #image_9 h2 {
-    margin-top: 10%;
+    margin-top: 12%;
 }
 
 /*Footer*/
