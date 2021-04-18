@@ -170,7 +170,7 @@ body ul {
 }
 
 .image_8 {
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 
@@ -314,18 +314,10 @@ body ul {
     flex-direction: column;
 }
 	
-.image_1, .image_2, .image_3, .image_4, .image_5, .image_6, .image_7 {
+.image_1, .image_2, .image_3, .image_4, .image_5, .image_6, .image_7, .image_8 {
   width: 90%;
   max-width: 90%;
   height: 90%;
-  margin-bottom: 20px; 
-}
-	
-.image_8 img {
-  width: 90%;
-  max-width: 90%;
-  height: 90%;
-  margin-left: 1%;
   margin-bottom: 20px; 
 }
 	
