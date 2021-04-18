@@ -324,6 +324,7 @@ body ul {
 .image_8 ul {
   width: 90%;
   max-width: 90%;
+  margin-left: 1%;
   height: 90%;
   margin-bottom: 20px; 
 }
