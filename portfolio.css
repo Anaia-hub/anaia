@@ -321,15 +321,7 @@ body ul {
   margin-bottom: 20px; 
 }
 	
-.image_8 ul {
-  width: 90%;
-  max-width: 90%;
-  margin-left: 1%;
-  height: 90%;
-  margin-bottom: 20px; 
-}
-	
-.image_9 {
+.image_8, .image_9 {
  display: none;
 }
 
