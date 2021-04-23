@@ -167,8 +167,8 @@ footer li {
 #logo img {
     width: 62%;
     margin-top: 6%;
-    margin-right: 4%;
-    float: right;
+    padding-left: 60%;
+    text-align: right;
 }
 	
 footer h2 {
